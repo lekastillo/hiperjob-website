@@ -36,8 +36,9 @@ const nextConfig = {
         'PORT': process.env.PORT
     }
 };
+
 module.exports = {
-    distDir: 'build',
+    distDir: 'out',
   }
 module.exports = withPlugins([
     [withImages],
