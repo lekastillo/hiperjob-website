@@ -1,0 +1,48 @@
+
+@import "assets/css/color/variable.css";
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,500,600,700,800,900");
+
+/* Bootstrap import */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Font-awesome import */
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+/* Ionic icons import */
+@import "assets/css/ionicons.min.css";
+
+/* Animate css import */
+@import "~animate.css/animate.min.css";
+
+/*********************************************************
+  Uncomment this Code to enable latest version of Ionic icons
+  !!!! Warning : Old version of ionic font might not work !!!!
+
+  @import "~ionicons/dist/css/ionicons.min.css";
+*********************************************************/
+
+/* Owl carousal css import */
+@import "~owl.carousel/dist/assets/owl.carousel.css";
+/*@import "~owl.carousel/dist/assets/owl.theme.default.css";*/
+
+
+@import 'assets/css/color/style.css';
+@import "assets/css/style.css";
+@import "assets/css/responsive.css";
+
+/* Custom css file import */
+@import "assets/css/custom.css";
+
+
+/* Customize Style css*/
+@import "assets/css/style-customizer.css";
+
+@import "~magnific-popup/dist/magnific-popup.css";
+
+@import "assets/css/color/color.scss";
+
+.owl-nav .fa, .owl-nav .fas  {
+    font-weight: 900 !important;
+}
+
