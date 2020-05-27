@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start --port=5600"
+    "start": "next start --port=5600",
+    "export": "npm run build && next export"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.10.0",
