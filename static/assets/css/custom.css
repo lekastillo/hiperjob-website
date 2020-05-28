@@ -8,3 +8,8 @@ Design and Developed by: iqonic.design
 NOTE: This is main stylesheet of template, This file contains the styling for the actual Template. Please do not change anything here! write in a custom.css file if required!
 
 */
+
+ul.footer-bottom-social li{
+  display:inline;
+  padding: 5px 10px;
+}

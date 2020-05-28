@@ -10,7 +10,7 @@ class Index extends React.Component {
 
         return (
             <>
-                <section id="software-features" className="overview-block-ptb grey-bg main-service-box">
+                <section id="porque-elegir-hiperjob" className="overview-block-ptb grey-bg main-service-box">
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12">

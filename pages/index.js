@@ -31,10 +31,9 @@ class Index extends React.Component {
         super(props, context);
         this.state = {
             menu: [
-                { href: '#iq-home', title: 'Inicio' },
+                { href: '#home', title: 'Inicio' },
                 { href: '#soluciones', title: 'Soluciones' },
                 { href: '#porque-elegir-hiperjob', title: '¿Por qué elegir HiperJob?' },
-                { href: '#great-screenshots', title: 'Screenshots' },
             ]
         };
     }
@@ -71,7 +70,7 @@ class Index extends React.Component {
                     className={""}
                     navItems={menu}
                     logoImg={logoImg}
-                    buttonSection={(<a className={"button bt-black pull-right"} href="#">Contacto</a>)}
+                    buttonSection={(<a className={"button bt-black pull-right"} href="#contacto">Contacto</a>)}
                 />
 
 

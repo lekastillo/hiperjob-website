@@ -4,7 +4,7 @@ const Index = () => {
 
     return (
         <>
-            <section className="overview-block-ptb blue-bg text-center">
+            <section className="overview-block-ptb blue-bg text-center" id='contacto'>
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">

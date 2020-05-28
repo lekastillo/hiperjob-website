@@ -11,7 +11,7 @@ class Index extends React.Component {
 
         return (
             <>
-                <section className="overview-block-ptb white-bg iq-asked">
+                <section className="overview-block-ptb white-bg iq-asked" id="faqs">
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12">

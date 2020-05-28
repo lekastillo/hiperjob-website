@@ -10,44 +10,19 @@ class Index extends React.Component {
             footerPlatform: [
                 {
                     section: [
-                        {
-                            href: '#',
-                            title: 'Linux'
-                        },
-                        {
-                            href: '#',
-                            title: 'Windows'
-                        },
-                        {
-                            href: '#',
-                            title: 'Web'
-                        },
-                        {
-                            href: '#',
-                            title: 'Android'
-                        }
+                        { href: '#home', title: 'Inicio' },
+                        { href: '#soluciones', title: 'Soluciones' },
+                        { href: '#porque-elegir-hiperjob', title: '¿Por qué elegir HiperJob?' }
                     ]
                 }
             ],
             footerHome: [
                 {
                     section: [
-                        {
-                            href: '#',
-                            title: 'Home'
-                        },
-                        {
-                            href: '#',
-                            title: 'About us'
-                        },
-                        {
-                            href: '#',
-                            title: 'Our team'
-                        },
-                        {
-                            href: '#',
-                            title: 'Portfolio'
-                        }
+                        { href: '#home', title: 'Inicio' },
+                        { href: '#soluciones', title: 'Soluciones' },
+                        { href: '#porque-elegir-hiperjob', title: '¿Por qué elegir HiperJob?' },
+                        { href: '#contacto', title: 'Contacto' }
                     ]
                 }
             ],
@@ -99,17 +74,17 @@ class Index extends React.Component {
                 {
                     icon: true,
                     iconClass: 'ion-ios-location-outline',
-                    text: '1234 North Luke Lane, South Bend, IN 360001'
+                    text: 'Av. Apoquindo 5950, Piso 21, Las Condes, Chile'
                 },
                 {
                     icon: true,
                     iconClass: 'ion-ios-telephone-outline',
-                    text: '+0123 456 789'
+                    text: '+ 569 9126 3360'
                 },
                 {
                     icon: true,
                     iconClass: 'ion-ios-email-outline',
-                    text: 'mail@sofbox.com'
+                    text: 'hola@hiperjob.com'
                 }
             ]
         }
@@ -121,20 +96,66 @@ class Index extends React.Component {
             <>
                 <FooterMain className={"iq-footerr iq-pt-40 iq-pb-20"}>
                     <div className="row">
-                        <div className="col-lg-2 col-md-4 col-sm-6 iq-mtb-20">
-                            <FooterLinks title={"Platforms"} content={footerPlatform}  />
+                        <div className="col-lg-4 col-md-4 col-sm-6 iq-mtb-20">
+                            <FooterAddress  addressContent={footerText} addressTitle={""} />
                         </div>
-                        <div className="col-lg-2 col-md-4 col-sm-6 iq-mtb-20">
-                            <FooterLinks title={"Menu"} content={footerHome}  />
+                        <div className="col-lg-4 col-md-4 col-sm-6 iq-mtb-20">
+                            <FooterLinks title={""} content={footerHome}  />
                         </div>
-                        <div className="col-lg-2 col-md-4 col-sm-6 iq-mtb-20">
-                            <FooterLinks title={"Community"} content={footerCommunity}  />
-                        </div>
-                        <div className="col-lg-2 col-md-4 col-sm-6 iq-mtb-20">
-                            <FooterLinks title={"Company"} content={footerCompany}  />
-                        </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 iq-mtb-20">
-                            <FooterAddress  addressContent={footerText} addressTitle={"Address"} />
+                        <div className="col-lg-4 col-md-4 col-sm-12 iq-mtb-20">
+                            <span className='widget-title font-bold color-efy font-18'>Síguenos en</span>
+                            <br />
+                            <ul className='footer-bottom-social'>
+                                <li>
+                                    <a
+                                        href='https://www.linkedin.com/company/firstjobme/'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
+                                        <i className='ion-social-linkedin iq-font-30 iq-font-black'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+
+                                        href='https://www.youtube.com/channel/UCsczfDcLzndhNcOpB1TJDsQ'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
+                                        <i className='ion-social-youtube iq-font-30 iq-font-black'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+
+                                        href='https://www.facebook.com/firstjobCL'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
+                                        <i className='ion-social-facebook iq-font-30 iq-font-black'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                <a
+
+                                href='http://instagram.com/firstjobme'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                >
+                                <i className='ion-social-instagram iq-font-30 iq-font-black'></i>
+                                </a>
+                                </li>
+                                <li>
+                                    <a
+
+                                        href='https://twitter.com/firstjoblatam'
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                    >
+                                        <i className='ion-social-twitter iq-font-30 iq-font-black'></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <hr />
@@ -144,20 +165,14 @@ class Index extends React.Component {
                                 <li className="d-inline-block img-fluid">
                                     <img className="img-fluid logo_img"
                                         id="logo_img"
-                                        src="./static/assets/images/color-customizer/color-1.png"
+                                        src='./static/assets/images/hiperjob_logo.png'
                                         alt="#" />
-                                </li>
-                                <li className="d-inline-block iq-mr-10">
-                                    <a href="#">Term and Condition</a>
-                                </li>
-                                <li className="d-inline-block">
-                                    <a href="#"> Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col-auto">
                             <div className="iq-copyright iq-ml-10">
-                                © 2018 <a href="#">Sofbox</a> All Rights Reserved
+                                <a href="/">Hiperjob</a> Todos los derechos reservados.
                             </div>
                         </div>
                     </div>

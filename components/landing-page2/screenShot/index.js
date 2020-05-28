@@ -91,7 +91,7 @@ class Index extends React.Component {
         const { tabs } = this.state;
         return (
             <>
-                <div className="overview-block-ptb iq-tab horizontal blue-bg" id="great-screenshots">
+                <div className="overview-block-ptb iq-tab horizontal blue-bg" id="soluciones">
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12">

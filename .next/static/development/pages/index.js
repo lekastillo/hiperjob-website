@@ -49,6 +49,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx("section", {
         className: "overview-block-ptb white-bg iq-asked",
+        id: "faqs",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -534,32 +535,29 @@ var Index = /*#__PURE__*/function (_React$Component) {
     _this.state = {
       footerPlatform: [{
         section: [{
-          href: '#',
-          title: 'Linux'
+          href: '#home',
+          title: 'Inicio'
         }, {
-          href: '#',
-          title: 'Windows'
+          href: '#soluciones',
+          title: 'Soluciones'
         }, {
-          href: '#',
-          title: 'Web'
-        }, {
-          href: '#',
-          title: 'Android'
+          href: '#porque-elegir-hiperjob',
+          title: '¿Por qué elegir HiperJob?'
         }]
       }],
       footerHome: [{
         section: [{
-          href: '#',
-          title: 'Home'
+          href: '#home',
+          title: 'Inicio'
         }, {
-          href: '#',
-          title: 'About us'
+          href: '#soluciones',
+          title: 'Soluciones'
         }, {
-          href: '#',
-          title: 'Our team'
+          href: '#porque-elegir-hiperjob',
+          title: '¿Por qué elegir HiperJob?'
         }, {
-          href: '#',
-          title: 'Portfolio'
+          href: '#contacto',
+          title: 'Contacto'
         }]
       }],
       footerCommunity: [{
@@ -595,15 +593,15 @@ var Index = /*#__PURE__*/function (_React$Component) {
       footerText: [{
         icon: true,
         iconClass: 'ion-ios-location-outline',
-        text: '1234 North Luke Lane, South Bend, IN 360001'
+        text: 'Av. Apoquindo 5950, Piso 21, Las Condes, Chile'
       }, {
         icon: true,
         iconClass: 'ion-ios-telephone-outline',
-        text: '+0123 456 789'
+        text: '+ 569 9126 3360'
       }, {
         icon: true,
         iconClass: 'ion-ios-email-outline',
-        text: 'mail@sofbox.com'
+        text: 'hola@hiperjob.com'
       }]
     };
     return _this;
@@ -623,7 +621,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122,
+          lineNumber: 97,
           columnNumber: 17
         }
       }, __jsx("div", {
@@ -631,99 +629,204 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123,
+          lineNumber: 98,
           columnNumber: 21
         }
       }, __jsx("div", {
-        className: "col-lg-2 col-md-4 col-sm-6 iq-mtb-20",
+        className: "col-lg-4 col-md-4 col-sm-6 iq-mtb-20",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124,
-          columnNumber: 25
-        }
-      }, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["FooterLinks"], {
-        title: "Platforms",
-        content: footerPlatform,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125,
-          columnNumber: 29
-        }
-      })), __jsx("div", {
-        className: "col-lg-2 col-md-4 col-sm-6 iq-mtb-20",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 127,
-          columnNumber: 25
-        }
-      }, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["FooterLinks"], {
-        title: "Menu",
-        content: footerHome,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 128,
-          columnNumber: 29
-        }
-      })), __jsx("div", {
-        className: "col-lg-2 col-md-4 col-sm-6 iq-mtb-20",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 130,
-          columnNumber: 25
-        }
-      }, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["FooterLinks"], {
-        title: "Community",
-        content: footerCommunity,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 131,
-          columnNumber: 29
-        }
-      })), __jsx("div", {
-        className: "col-lg-2 col-md-4 col-sm-6 iq-mtb-20",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 133,
-          columnNumber: 25
-        }
-      }, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["FooterLinks"], {
-        title: "Company",
-        content: footerCompany,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 134,
-          columnNumber: 29
-        }
-      })), __jsx("div", {
-        className: "col-lg-3 col-md-6 col-sm-6 iq-mtb-20",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 136,
+          lineNumber: 99,
           columnNumber: 25
         }
       }, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["FooterAddress"], {
         addressContent: footerText,
-        addressTitle: "Address",
+        addressTitle: "",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137,
+          lineNumber: 100,
           columnNumber: 29
         }
-      }))), __jsx("hr", {
+      })), __jsx("div", {
+        className: "col-lg-4 col-md-4 col-sm-6 iq-mtb-20",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140,
+          lineNumber: 102,
+          columnNumber: 25
+        }
+      }, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["FooterLinks"], {
+        title: "",
+        content: footerHome,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103,
+          columnNumber: 29
+        }
+      })), __jsx("div", {
+        className: "col-lg-4 col-md-4 col-sm-12 iq-mtb-20",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 25
+        }
+      }, __jsx("span", {
+        className: "widget-title font-bold color-efy font-18",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 29
+        }
+      }, "S\xEDguenos en"), __jsx("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107,
+          columnNumber: 29
+        }
+      }), __jsx("ul", {
+        className: "footer-bottom-social",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 108,
+          columnNumber: 29
+        }
+      }, __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109,
+          columnNumber: 33
+        }
+      }, __jsx("a", {
+        href: "https://www.linkedin.com/company/firstjobme/",
+        target: "_blank",
+        rel: "noopener noreferrer",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 110,
+          columnNumber: 37
+        }
+      }, __jsx("i", {
+        className: "ion-social-linkedin iq-font-30 iq-font-black",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 41
+        }
+      }))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118,
+          columnNumber: 33
+        }
+      }, __jsx("a", {
+        href: "https://www.youtube.com/channel/UCsczfDcLzndhNcOpB1TJDsQ",
+        target: "_blank",
+        rel: "noopener noreferrer",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 37
+        }
+      }, __jsx("i", {
+        className: "ion-social-youtube iq-font-30 iq-font-black",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 125,
+          columnNumber: 41
+        }
+      }))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 128,
+          columnNumber: 33
+        }
+      }, __jsx("a", {
+        href: "https://www.facebook.com/firstjobCL",
+        target: "_blank",
+        rel: "noopener noreferrer",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 129,
+          columnNumber: 37
+        }
+      }, __jsx("i", {
+        className: "ion-social-facebook iq-font-30 iq-font-black",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 135,
+          columnNumber: 41
+        }
+      }))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 138,
+          columnNumber: 33
+        }
+      }, __jsx("a", {
+        href: "http://instagram.com/firstjobme",
+        target: "_blank",
+        rel: "noopener noreferrer",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 139,
+          columnNumber: 33
+        }
+      }, __jsx("i", {
+        className: "ion-social-instagram iq-font-30 iq-font-black",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145,
+          columnNumber: 33
+        }
+      }))), __jsx("li", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 148,
+          columnNumber: 33
+        }
+      }, __jsx("a", {
+        href: "https://twitter.com/firstjoblatam",
+        target: "_blank",
+        rel: "noopener noreferrer",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 149,
+          columnNumber: 37
+        }
+      }, __jsx("i", {
+        className: "ion-social-twitter iq-font-30 iq-font-black",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155,
+          columnNumber: 41
+        }
+      })))))), __jsx("hr", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 161,
           columnNumber: 21
         }
       }), __jsx("div", {
@@ -731,7 +834,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 141,
+          lineNumber: 162,
           columnNumber: 21
         }
       }, __jsx("div", {
@@ -739,7 +842,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142,
+          lineNumber: 163,
           columnNumber: 25
         }
       }, __jsx("ul", {
@@ -747,7 +850,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143,
+          lineNumber: 164,
           columnNumber: 29
         }
       }, __jsx("li", {
@@ -755,58 +858,26 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144,
+          lineNumber: 165,
           columnNumber: 33
         }
       }, __jsx("img", {
         className: "img-fluid logo_img",
         id: "logo_img",
-        src: "./static/assets/images/color-customizer/color-1.png",
+        src: "./static/assets/images/hiperjob_logo.png",
         alt: "#",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145,
+          lineNumber: 166,
           columnNumber: 37
         }
-      })), __jsx("li", {
-        className: "d-inline-block iq-mr-10",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 150,
-          columnNumber: 33
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 151,
-          columnNumber: 37
-        }
-      }, "Term and Condition")), __jsx("li", {
-        className: "d-inline-block",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 153,
-          columnNumber: 33
-        }
-      }, __jsx("a", {
-        href: "#",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 154,
-          columnNumber: 37
-        }
-      }, " Privacy Policy")))), __jsx("div", {
+      })))), __jsx("div", {
         className: "col-auto",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158,
+          lineNumber: 173,
           columnNumber: 25
         }
       }, __jsx("div", {
@@ -814,18 +885,18 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159,
+          lineNumber: 174,
           columnNumber: 29
         }
-      }, "\xA9 2018 ", __jsx("a", {
-        href: "#",
+      }, __jsx("a", {
+        href: "/",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160,
-          columnNumber: 40
+          lineNumber: 175,
+          columnNumber: 33
         }
-      }, "Sofbox"), " All Rights Reserved")))));
+      }, "Hiperjob"), " Todos los derechos reservados.")))));
     }
   }]);
 
@@ -886,7 +957,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["ParallaxHeroStyle1"], {
-        ids: "iq-home",
+        ids: "home",
         bgImage: "./static/assets/images/bg/01.jpg",
         className: "iq-banner overview-block-pt iq-bg-over iq-over-blue-90 iq-parallax jarallax",
         __self: this,
@@ -1011,6 +1082,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Index = function Index() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("section", {
     className: "overview-block-ptb blue-bg text-center",
+    id: "contacto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1228,7 +1300,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
       var tabs = this.state.tabs;
       return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx("div", {
         className: "overview-block-ptb iq-tab horizontal blue-bg",
-        id: "great-screenshots",
+        id: "soluciones",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -1720,7 +1792,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx("section", {
-        id: "software-features",
+        id: "porque-elegir-hiperjob",
         className: "overview-block-ptb grey-bg main-service-box",
         __self: this,
         __source: {
@@ -31809,7 +31881,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
     _this = _super.call(this, props, context);
     _this.state = {
       menu: [{
-        href: '#iq-home',
+        href: '#home',
         title: 'Inicio'
       }, {
         href: '#soluciones',
@@ -31817,9 +31889,6 @@ var Index = /*#__PURE__*/function (_React$Component) {
       }, {
         href: '#porque-elegir-hiperjob',
         title: '¿Por qué elegir HiperJob?'
-      }, {
-        href: '#great-screenshots',
-        title: 'Screenshots'
       }]
     };
     return _this;
@@ -31840,14 +31909,14 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56,
+          lineNumber: 55,
           columnNumber: 17
         }
       }, __jsx("title", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57,
+          lineNumber: 56,
           columnNumber: 21
         }
       }, "HiperJob - Plataforma de Gesti\xF3n de Candidatos"), __jsx("meta", {
@@ -31856,7 +31925,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 57,
           columnNumber: 21
         }
       }), __jsx("meta", {
@@ -31865,7 +31934,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 58,
           columnNumber: 21
         }
       }), __jsx("meta", {
@@ -31874,7 +31943,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 59,
           columnNumber: 21
         }
       }), __jsx("link", {
@@ -31883,14 +31952,14 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 61,
           columnNumber: 21
         }
       })), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_17__["Loader"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 66,
           columnNumber: 17
         }
       }), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_17__["HeaderStyle1"], {
@@ -31899,25 +31968,25 @@ var Index = /*#__PURE__*/function (_React$Component) {
         logoImg: _static_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_16___default.a,
         buttonSection: __jsx("a", {
           className: "button bt-black pull-right",
-          href: "#",
+          href: "#contacto",
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 74,
+            lineNumber: 73,
             columnNumber: 37
           }
         }, "Contacto"),
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70,
+          lineNumber: 69,
           columnNumber: 17
         }
       }), __jsx(_components_landing_page2_home__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
+          lineNumber: 78,
           columnNumber: 17
         }
       }), __jsx("div", {
@@ -31925,56 +31994,56 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82,
+          lineNumber: 81,
           columnNumber: 17
         }
       }, __jsx(_components_landing_page2_screenShot__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 91,
           columnNumber: 21
         }
       }), __jsx(_components_landing_page2_services__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95,
+          lineNumber: 94,
           columnNumber: 21
         }
       }), __jsx(_components_landing_page2_clients__WEBPACK_IMPORTED_MODULE_13__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98,
+          lineNumber: 97,
           columnNumber: 21
         }
       }), __jsx(_components_landing_page1_faq__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101,
+          lineNumber: 100,
           columnNumber: 21
         }
       }), __jsx(_components_landing_page2_overview__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104,
+          lineNumber: 103,
           columnNumber: 21
         }
       })), __jsx(_components_landing_page2_footer__WEBPACK_IMPORTED_MODULE_15__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109,
+          lineNumber: 108,
           columnNumber: 17
         }
       }), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_17__["ScrollTop"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112,
+          lineNumber: 111,
           columnNumber: 17
         }
       }));

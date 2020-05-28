@@ -11,7 +11,7 @@ class Index extends React.Component {
     render() {
         return (
             <>
-                <ParallaxHeroStyle1 ids="iq-home" bgImage={"./static/assets/images/bg/01.jpg"} className={"iq-banner overview-block-pt iq-bg-over iq-over-blue-90 iq-parallax jarallax"}>
+                <ParallaxHeroStyle1 ids="home" bgImage={"./static/assets/images/bg/01.jpg"} className={"iq-banner overview-block-pt iq-bg-over iq-over-blue-90 iq-parallax jarallax"}>
                     <div className="container-fluid">
                         <div className="banner-text">
                             <div className="row">
