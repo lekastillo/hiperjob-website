@@ -15,9 +15,8 @@ class Index extends React.Component {
                         <div className="row">
                             <div className="col-sm-12">
                                 <div className="heading-title">
-                                    <h3 className="title iq-tw-7">Sofbox Specialities</h3>
-                                    <p>Sofbox is popular for the below specialities that can make your website look beautiful
-                                   </p>
+                                    <h3 className="title iq-tw-7">¿Por qué elegir HiperJob?</h3>
+                                    <p>Puedes implementar la solución que necesites, sin necesidad de adquirirlas todas! Ahorra en comparación con otras soluciones.</p>
                                 </div>
                             </div>
                         </div>
@@ -29,23 +28,22 @@ class Index extends React.Component {
                                 <div className="media service-box">
                                     <i aria-hidden="true" className="ion-ios-pie-outline" />
                                     <div className="media-body">
-                                        <h5 className="iq-tw-7 mt-0">Design</h5>
-                                        Sofbox’s beautiful and super clean looks will make your website look beautiful and elegant.
-
+                                        <h5 className="iq-tw-7 mt-0">Integración</h5>
+                                        Te damos la oportunidad de integrarte con diferentes plataformas de empleo, test en línea y otras plataformas de gestión. Tenemos una API libre.
                                     </div>
                                 </div>
                                 <div className="media service-box">
                                     <i aria-hidden="true" className="ion-ios-grid-view-outline" />
                                     <div className="media-body">
-                                        <h5 className="iq-tw-7 mt-0">Code</h5>
-                                        Source code is written clean which can be understood.
+                                        <h5 className="iq-tw-7 mt-0">Notificaciones Automáticas</h5>
+                                        Mejora la comunicación con tus candidatos y stakeholders con notificaciones automáticas en todos los procesos.
                                     </div>
                                 </div>
                                 <div className="media service-box">
                                     <i aria-hidden="true" className="ion-ios-monitor-outline" />
                                     <div className="media-body">
-                                        <h5 className="iq-tw-7 mt-0">Functionality</h5>
-                                        Allows easily to customize as per your business needs.
+                                        <h5 className="iq-tw-7 mt-0">Transformación Digital</h5>
+                                        Aporta al proceso de transformación digital en recursos humanos y genera insights de people analytics.
                                     </div>
                                 </div>
                             </div>

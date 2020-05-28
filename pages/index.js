@@ -8,11 +8,9 @@ import '../static/style.css';
 
 // Import for the custom plugins...
 import Home from '../components/landing-page2/home';
-import FancyCard from '../components/landing-page2/fancyCard';
-import About from '../components/landing-page2/about';
+import Faq from '../components/landing-page1/faq';
 import Services from '../components/landing-page2/services';
 import ScreenShot from '../components/landing-page2/screenShot';
-import AboutApp from '../components/landing-page2/aboutApp';
 import Clients from "../components/landing-page2/clients";
 import Overview from "../components/landing-page2/overview";
 import Footer from "../components/landing-page2/footer";
@@ -34,8 +32,8 @@ class Index extends React.Component {
         this.state = {
             menu: [
                 { href: '#iq-home', title: 'Inicio' },
-                { href: '#how-it-works', title: 'Acerca de' },
-                { href: '#software-features', title: 'Servicios' },
+                { href: '#soluciones', title: 'Soluciones' },
+                { href: '#porque-elegir-hiperjob', title: '¿Por qué elegir HiperJob?' },
                 { href: '#great-screenshots', title: 'Screenshots' },
             ]
         };
@@ -56,10 +54,10 @@ class Index extends React.Component {
             <>
                 {/* Heading section */}
                 <Head>
-                    <title>Sofbox - Responsive Software Landing Page</title>
-                    <meta name="keywords" content="HTML5 Template" />
-                    <meta name="description" content="Sofbox - Responsive Software Landing Page" />
-                    <meta name="author" content="http://iqonic.design/" />
+                    <title>HiperJob - Plataforma de Gestión de Candidatos</title>
+                    <meta name="keywords" content="HiperJob, recursos humanos, postulantes, aplciantes, ATS, emplos, gestión aplciantes, vacantes" />
+                    <meta name="description" content="HiperJob - Plataforma de Gestión de Candidatos" />
+                    <meta name="author" content="https://hiperjobs.com/" />
 
                     <link rel="shortcut icon" href="./static/assets/images/favicon.ico" />
                 </Head>
@@ -82,26 +80,29 @@ class Index extends React.Component {
 
 
                 <div className="main-content">
-                    {/* Fancy card section */}
-                    <FancyCard />
+                    {/* Fancy card section 
+                        <FancyCard />
+                    */}
 
-                    {/* About section */}
-                    <About />
-
-                    {/* Services section */}
-                    <Services />
+                    {/* About section 
+                        <About />
+                    */}
 
                     {/* ScreenShot section */}
                     <ScreenShot />
 
-                    {/* About App section */}
-                    <AboutApp />
+                    {/* Services section  */}
+                    <Services />
 
                     {/* Client carousal section */}
                     <Clients />
 
+                    {/* Faq section */}
+                    <Faq />
+
                     {/* Overview section */}
                     <Overview />
+                    
                 </div>
 
                 {/* Footer section */}

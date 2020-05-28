@@ -9105,12 +9105,12 @@ Tab
 .iq-tab .nav-pills .nav-link.active,
 .iq-tab .nav-pills .show>.nav-link,
 .iq-tab .nav-pills .nav-link:hover {
-  background: rgba(125, 210, 243, 0.7);
+  background: rgba(255, 99, 43, 0.7);
   color: #ffffff;
 }
 
 .iq-tab.horizontal .nav-item {
-  width: 16%;
+  width: 14%;
   text-align: center;
   margin-right: 15px;
 }

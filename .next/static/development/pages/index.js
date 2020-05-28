@@ -1,160 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/landing-page2/about/index.js":
-/*!*************************************************!*\
-  !*** ./components/landing-page2/about/index.js ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/reflect/construct */ "./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _sofbox__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../sofbox */ "./components/sofbox/index.js");
-
-
-
-
-
-
-var _jsxFileName = "/home/lekastillo/projects/FirstJob/hiperjob/website/hiperjob-website/components/landing-page2/about/index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default.a) return false; if (_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default.a.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-
-
-
-var Index = /*#__PURE__*/function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(Index, _React$Component);
-
-  var _super = _createSuper(Index);
-
-  function Index(props, context) {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Index);
-
-    _this = _super.call(this, props, context);
-    _this.state = {};
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Index, [{
-    key: "render",
-    value: function render() {
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["AboutStyle1"], {
-        ids: "how-it-works",
-        className: "overview-block-ptb how-works",
-        sectionImage: "./static/assets/images/drive/iPad-Mockup1.png",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17,
-          columnNumber: 17
-        }
-      }, __jsx("div", {
-        className: "heading-title left text-left",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 21
-        }
-      }, __jsx("h3", {
-        className: "iq-tw-7 iq-mb-25 title",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23,
-          columnNumber: 25
-        }
-      }, "What can sofbox do ?")), __jsx("p", {
-        className: "",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25,
-          columnNumber: 21
-        }
-      }, "You can fully customize the template with ease. Every page is fully responsive and retina ready which makes your creation look good on any device."), __jsx("a", {
-        href: "#",
-        className: "button iq-mt-10",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28,
-          columnNumber: 21
-        }
-      }, "Click Here")), __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["AboutStyle1"], {
-        ids: "how-it-works-two",
-        className: "overview-block-ptb how-works",
-        sectionImage: "./static/assets/images/drive/iPad-Mockup.png",
-        rowReverse: true,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30,
-          columnNumber: 17
-        }
-      }, __jsx("div", {
-        className: "heading-title left text-left",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36,
-          columnNumber: 21
-        }
-      }, __jsx("h3", {
-        className: "iq-tw-7 iq-mb-25 title",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 25
-        }
-      }, "Beautiful interface")), __jsx("p", {
-        className: "",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39,
-          columnNumber: 21
-        }
-      }, "Sofbox\u2019s harmonious design and super clean looks will make your website look beautiful and elegant."), __jsx("a", {
-        href: "#",
-        className: "button iq-mt-10",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 21
-        }
-      }, "Click Here")));
-    }
-  }]);
-
-  return Index;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Index);
-
-/***/ }),
-
-/***/ "./components/landing-page2/aboutApp/index.js":
-/*!****************************************************!*\
-  !*** ./components/landing-page2/aboutApp/index.js ***!
-  \****************************************************/
+/***/ "./components/landing-page1/faq/index.js":
+/*!***********************************************!*\
+  !*** ./components/landing-page1/faq/index.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -175,7 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/lekastillo/projects/FirstJob/hiperjob/website/hiperjob-website/components/landing-page2/aboutApp/index.js";
+var _jsxFileName = "/home/lekastillo/projects/FirstJob/hiperjob/website/hiperjob-website/components/landing-page1/faq/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
@@ -199,11 +48,11 @@ var Index = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx("section", {
-        className: "overview-block-ptb grey-bg",
+        className: "overview-block-ptb white-bg iq-asked",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
+          lineNumber: 14,
           columnNumber: 17
         }
       }, __jsx("div", {
@@ -211,7 +60,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 15,
           columnNumber: 21
         }
       }, __jsx("div", {
@@ -219,125 +68,290 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 16,
           columnNumber: 25
         }
       }, __jsx("div", {
-        className: "col-lg-6 align-self-center ",
+        className: "col-sm-12",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
+          lineNumber: 17,
           columnNumber: 29
         }
-      }, __jsx("h2", {
-        className: "iq-mb-25 iq-tw-7",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15,
-          columnNumber: 33
-        }
-      }, "Develop more beautiful thing with Sofbox"), __jsx("p", {
-        className: "",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16,
-          columnNumber: 33
-        }
-      }, "Choose unique elements and customize sections as per your business requirements. We are a design company, we create beautiful and creative designs that makes your website look elegant."), __jsx("div", {
-        className: "media iq-mt-30",
+      }, __jsx("div", {
+        className: "heading-title",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18,
           columnNumber: 33
         }
-      }, __jsx("img", {
-        className: "mr-3 rounded-circle align-self-center",
-        src: "./static/assets/images/testimonial/01.jpg",
-        alt: "Generic placeholder image",
+      }, __jsx("h3", {
+        className: "title iq-tw-7",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19,
           columnNumber: 37
         }
-      }), __jsx("div", {
-        className: "media-body iq-pr-30 iq-pt-15",
+      }, "Preguntas Frecuentes"), __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 41
+          lineNumber: 20,
+          columnNumber: 37
         }
-      }, __jsx("p", {
+      }, "Puedes implementar la soluci\xF3n que necesites, sin necesidad de adquirirlas todas! Ahorra en comparaci\xF3n con otras soluciones.")))), __jsx("div", {
+        className: "row align-items-center",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 45
-        }
-      }, "\"Sofbox\u2019s unique design and super clean looks made my website look beautiful and elegant.\"")))), __jsx("div", {
-        className: "col-lg-6 align-self-center r-mt-30",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27,
-          columnNumber: 29
+          lineNumber: 24,
+          columnNumber: 25
         }
       }, __jsx("div", {
-        className: "media-wrapper",
+        className: "col-md-12 col-lg-6",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 25,
+          columnNumber: 29
+        }
+      }, __jsx("img", {
+        className: "img-fluid center-block",
+        src: "./static/assets/images/drive/10.png",
+        alt: "drive10",
+        style: {
+          zIndex: 9,
+          position: 'relative'
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
           columnNumber: 33
         }
-      }, __jsx("video", {
-        style: {
-          width: "100%",
-          height: "100%"
-        },
-        id: "player1",
-        poster: "./static/assets/video/01.jpg",
-        controls: "",
-        preload: "none",
+      })), __jsx("div", {
+        className: "col-md-12 col-lg-6",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29,
-          columnNumber: 37
+          columnNumber: 29
         }
-      }, __jsx("source", {
-        type: "video/m4v",
-        src: "./static/assets/video/01.m4v",
+      }, __jsx("div", {
+        className: "iq-accordion",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 33
+        }
+      }, __jsx("div", {
+        className: "iq-accordion accordion-active",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31,
-          columnNumber: 41
+          columnNumber: 37
         }
-      }), __jsx("source", {
-        type: "video/webm",
-        src: "./static/assets/video/01.webm",
+      }, __jsx("a", {
+        href: "#",
+        className: "accordion-title iq-tw-7 iq-font-grey",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32,
           columnNumber: 41
         }
-      }), __jsx("source", {
-        type: "video/ogg",
-        src: "./static/assets/video/01.ogv",
+      }, "\xBFEs muy costoso HiperJob?"), __jsx("div", {
+        className: "accordion-details",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33,
           columnNumber: 41
         }
-      }))))))));
+      }, __jsx("div", {
+        className: "row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 45
+        }
+      }, __jsx("div", {
+        className: "col-sm-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 49
+        }
+      }, __jsx("img", {
+        alt: "#",
+        className: "img-fluid",
+        src: __webpack_require__(/*! ../../../static/assets/images/blog/01.jpg */ "./static/assets/images/blog/01.jpg"),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 53
+        }
+      })), __jsx("div", {
+        className: "col-sm-9",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 49
+        }
+      }, " Desde 100 USD mensuales puedes acceder a nuestras soluciones.")))), __jsx("div", {
+        className: "iq-accordion",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 37
+        }
+      }, __jsx("a", {
+        href: "#",
+        className: "accordion-title iq-tw-7 iq-font-grey",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 41
+        }
+      }, "Ya tengo un ATS, \xBFme sirve?"), __jsx("div", {
+        className: "accordion-details",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 41
+        }
+      }, "Si tienes Success Factors, Taleo, Workday o similar podemos ser el gran complemento para mejorar tu soluci\xF3n.")), __jsx("div", {
+        className: "iq-accordion",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 37
+        }
+      }, __jsx("a", {
+        href: "#",
+        className: "accordion-title iq-tw-7 iq-font-grey",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 41
+        }
+      }, "\xBFPuedo configurar seg\xFAn necesidades de mi empresa?"), __jsx("div", {
+        className: "accordion-details",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 41
+        }
+      }, __jsx("div", {
+        className: "row",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 45
+        }
+      }, __jsx("div", {
+        className: "col-sm-9",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53,
+          columnNumber: 49
+        }
+      }, " Puedes solicitar modificaciones para ajustarlo a tus necesidades, con peque\xF1os costos extras."), __jsx("div", {
+        className: "col-sm-3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55,
+          columnNumber: 49
+        }
+      }, __jsx("img", {
+        alt: "#",
+        className: "img-fluid",
+        src: "./static/assets/images/blog/01.jpg",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 53
+        }
+      }))))))))), __jsx("div", {
+        className: "iq-objects-asked",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 21
+        }
+      }, __jsx("span", {
+        className: "iq-objects-01",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 25
+        }
+      }, __jsx("img", {
+        src: "./static/assets/images/drive/02.png",
+        alt: "drive02",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 29
+        }
+      })), __jsx("span", {
+        className: "iq-objects-02",
+        "data-bottom": "transform:translatex(50px)",
+        "data-top": "transform:translatex(-100px);",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 25
+        }
+      }, __jsx("img", {
+        src: "./static/assets/images/drive/04.png",
+        alt: "drive02",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 29
+        }
+      })), __jsx("span", {
+        className: "iq-objects-03 iq-fadebounce",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 25
+        }
+      }, __jsx("span", {
+        className: "iq-round",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
+          columnNumber: 29
+        }
+      })))));
     }
   }]);
 
@@ -461,175 +475,6 @@ var Index = /*#__PURE__*/function (_React$Component) {
           columnNumber: 33
         }
       }))))));
-    }
-  }]);
-
-  return Index;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Index);
-
-/***/ }),
-
-/***/ "./components/landing-page2/fancyCard/index.js":
-/*!*****************************************************!*\
-  !*** ./components/landing-page2/fancyCard/index.js ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/reflect/construct */ "./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _sofbox__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../sofbox */ "./components/sofbox/index.js");
-
-
-
-
-
-
-
-var _this = undefined,
-    _jsxFileName = "/home/lekastillo/projects/FirstJob/hiperjob/website/hiperjob-website/components/landing-page2/fancyCard/index.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = _babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default.a) return false; if (_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default.a.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(_babel_runtime_corejs2_core_js_reflect_construct__WEBPACK_IMPORTED_MODULE_0___default()(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-
-
-
-var Cards = function Cards(props) {
-  var cardList = props.cardList;
-  return cardList.map(function (card, index) {
-    return __jsx("div", {
-      key: index,
-      className: "col-sm-12 col-lg-3 col-md-6",
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 9,
-        columnNumber: 9
-      }
-    }, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["FancyCard"], {
-      icon: card.icon,
-      title: card.title,
-      text: card.text,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 10,
-        columnNumber: 13
-      }
-    }));
-  });
-};
-
-var Index = /*#__PURE__*/function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(Index, _React$Component);
-
-  var _super = _createSuper(Index);
-
-  function Index(props, context) {
-    var _this2;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Index);
-
-    _this2 = _super.call(this, props, context);
-    _this2.state = {
-      cardData: [{
-        icon: "fa fa-user-circle",
-        title: "High Resolution",
-        text: "Provided with high resolution images."
-      }, {
-        icon: "ion-ios-settings",
-        title: "Color Schemes",
-        text: "You can use color schemes as you need."
-      }, {
-        icon: "ion-social-googleplus-outline",
-        title: "Google Fonts",
-        text: "You can change the fonts of the website."
-      }, {
-        icon: "ion-ios-heart-outline",
-        title: "Clean Codes",
-        text: "Clean code which can be understood."
-      }]
-    };
-    return _this2;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Index, [{
-    key: "render",
-    value: function render() {
-      var cardData = this.state.cardData;
-      return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx("section", {
-        className: "overview-block-ptb",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50,
-          columnNumber: 17
-        }
-      }, __jsx("div", {
-        className: "container",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51,
-          columnNumber: 21
-        }
-      }, __jsx("div", {
-        className: "row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52,
-          columnNumber: 25
-        }
-      }, __jsx("div", {
-        className: "col-sm-12",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53,
-          columnNumber: 29
-        }
-      }, __jsx(_sofbox__WEBPACK_IMPORTED_MODULE_7__["SectionTitle"], {
-        title: "What is sofbox ?",
-        subTitle: "Sofbox is a sleek, clean and powerful landing page template ",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54,
-          columnNumber: 33
-        }
-      }))), __jsx("div", {
-        className: "row",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60,
-          columnNumber: 25
-        }
-      }, __jsx(Cards, {
-        cardList: cardData,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61,
-          columnNumber: 29
-        }
-      })))));
     }
   }]);
 
@@ -1082,7 +927,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
           lineNumber: 18,
           columnNumber: 33
         }
-      }, __jsx("h1", {
+      }, __jsx("h2", {
         className: "text-uppercase iq-font-white iq-tw-3",
         __self: this,
         __source: {
@@ -1090,41 +935,31 @@ var Index = /*#__PURE__*/function (_React$Component) {
           lineNumber: 19,
           columnNumber: 37
         }
-      }, "We are building ", __jsx("b", {
+      }, "La Mejor Plataforma para la Estrategia Digital de ", __jsx("b", {
         className: "iq-tw-7",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
-          columnNumber: 106
+          lineNumber: 20,
+          columnNumber: 40
         }
-      }, "software"), " to help"), __jsx("p", {
+      }, "Recursos Humanos")), __jsx("p", {
         className: "iq-font-white iq-pt-15 iq-mb-40",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 22,
           columnNumber: 37
         }
-      }, "We are a company boutique for digital transformation and software development that offers state-of - the-art engineering solutions, helping businesses and business customers untangle complicated problems.")), __jsx("div", {
+      }, "HiperJob te permitir\xE1 gestionar tus diferentes candidatos, optimizar procesos y mejorar los indicadores del \xE1rea de atracci\xF3n de talento.")), __jsx("div", {
         className: "col-lg-6",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 24,
           columnNumber: 33
         }
       }, __jsx("img", {
-        className: "banner-img img-fluid watch-img wow slideInDown",
-        src: "./static/assets/images/banner/19.png",
-        alt: "",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27,
-          columnNumber: 37
-        }
-      }), __jsx("img", {
         className: "banner-img wow bounceInDown",
         "data-wow-duration": "2s",
         src: "./static/assets/images/banner/17.png",
@@ -1132,7 +967,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 26,
           columnNumber: 37
         }
       }), __jsx("img", {
@@ -1142,7 +977,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 28,
           columnNumber: 37
         }
       })))))));
@@ -1347,33 +1182,39 @@ var Index = /*#__PURE__*/function (_React$Component) {
     _this2 = _super.call(this, props);
     _this2.state = {
       tabs: [{
-        id: 'retina1-tab',
-        href: 'retina1',
-        title: 'Retina Ready',
+        id: 'career-page-tab',
+        href: 'career-page',
+        title: 'Career Page',
         active: true,
         icon: 'ion-ios-color-wand-outline'
       }, {
-        id: 'designs1-tab',
-        href: 'designs1',
-        title: 'Latest Designs',
+        id: 'referreds-tab',
+        href: 'referreds',
+        title: 'Referidos',
         active: false,
         icon: 'ion-ios-heart-outline'
       }, {
-        id: 'customize1-tab',
-        href: 'customize1',
-        title: 'Easy to Customize',
+        id: 'movilidad-tab',
+        href: 'movilidad',
+        title: 'Movilidad Interna',
         active: false,
         icon: 'ion-ios-settings'
       }, {
-        id: 'clean1-tab',
-        href: 'clean1',
-        title: 'Clean',
+        id: 'workflow-tab',
+        href: 'workflow',
+        title: 'Workflow de Vacantes',
         active: false,
         icon: 'ion-ios-checkmark-outline'
       }, {
-        id: 'revolution1-tab',
-        href: 'revolution1',
-        title: 'Revolution Slider',
+        id: 'documentos-tab',
+        href: 'documentos',
+        title: 'Documentos y Pre-Onboarding',
+        active: false,
+        icon: 'ion-ios-albums-outline'
+      }, {
+        id: 'swap-tab',
+        href: 'swap',
+        title: 'SWAP',
         active: false,
         icon: 'ion-ios-albums-outline'
       }]
@@ -1391,7 +1232,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 94,
           columnNumber: 17
         }
       }, __jsx("div", {
@@ -1399,7 +1240,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88,
+          lineNumber: 95,
           columnNumber: 21
         }
       }, __jsx("div", {
@@ -1407,7 +1248,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 96,
           columnNumber: 25
         }
       }, __jsx("div", {
@@ -1415,7 +1256,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90,
+          lineNumber: 97,
           columnNumber: 29
         }
       }, __jsx("div", {
@@ -1423,7 +1264,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91,
+          lineNumber: 98,
           columnNumber: 33
         }
       }, __jsx("h3", {
@@ -1431,22 +1272,15 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 99,
           columnNumber: 37
         }
-      }, "Why Choose Sofbox ?"), __jsx("p", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 93,
-          columnNumber: 37
-        }
-      }, "Sofbox provides beautiful and elegant look for your website")))), __jsx("div", {
+      }, "Soluciones")))), __jsx("div", {
         className: "row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98,
+          lineNumber: 103,
           columnNumber: 25
         }
       }, __jsx("div", {
@@ -1454,7 +1288,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99,
+          lineNumber: 104,
           columnNumber: 29
         }
       }, __jsx(List, {
@@ -1462,7 +1296,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100,
+          lineNumber: 105,
           columnNumber: 33
         }
       }), __jsx("div", {
@@ -1470,16 +1304,16 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102,
+          lineNumber: 107,
           columnNumber: 33
         }
       }, __jsx("div", {
         className: "tab-pane active",
-        id: "retina1",
+        id: "career-page",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104,
+          lineNumber: 109,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -1487,7 +1321,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105,
+          lineNumber: 110,
           columnNumber: 41
         }
       }, __jsx("div", {
@@ -1495,7 +1329,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106,
+          lineNumber: 111,
           columnNumber: 45
         }
       }, __jsx("img", {
@@ -1505,7 +1339,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107,
+          lineNumber: 112,
           columnNumber: 49
         }
       })), __jsx("div", {
@@ -1513,7 +1347,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110,
+          lineNumber: 115,
           columnNumber: 45
         }
       }, __jsx("h3", {
@@ -1521,33 +1355,24 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111,
+          lineNumber: 116,
           columnNumber: 49
         }
-      }, "We Are An Agency That Focuses On Digital Design Solutions"), __jsx("p", {
+      }, "Career Page - Trabaja con Nosotros"), __jsx("p", {
         className: "iq-mt-30 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113,
+          lineNumber: 117,
           columnNumber: 49
         }
-      }, "The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements."), __jsx("a", {
-        href: "#",
-        className: "button bt-black",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 115,
-          columnNumber: 49
-        }
-      }, "Let's Started")))), __jsx("div", {
+      }, "Plataforma que permite recepcionar postulantes externos, con un atractivo y moderno dise\xF1o que logra mejorar la experiencia de candidato y transmitir\xE1 la propuesta de valor de la compa\xF1\xEDa.")))), __jsx("div", {
         className: "tab-pane",
-        id: "designs1",
+        id: "referreds",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120,
+          lineNumber: 122,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -1555,7 +1380,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121,
+          lineNumber: 123,
           columnNumber: 41
         }
       }, __jsx("div", {
@@ -1563,7 +1388,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122,
+          lineNumber: 124,
           columnNumber: 45
         }
       }, __jsx("img", {
@@ -1573,7 +1398,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123,
+          lineNumber: 125,
           columnNumber: 49
         }
       })), __jsx("div", {
@@ -1581,41 +1406,32 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126,
+          lineNumber: 128,
           columnNumber: 45
         }
       }, __jsx("h3", {
         className: "iq-tw-7 iq-font-white",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 127,
-          columnNumber: 49
-        }
-      }, "We Are An Agency That Focuses On Digital Design Solutions"), __jsx("p", {
-        className: "iq-mt-30 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 129,
           columnNumber: 49
         }
-      }, "The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements."), __jsx("a", {
-        href: "#",
-        className: "button bt-black",
+      }, "Plataforma de Referidos"), __jsx("p", {
+        className: "iq-mt-30 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131,
+          lineNumber: 130,
           columnNumber: 49
         }
-      }, "Let's Started")))), __jsx("div", {
+      }, "Plataforma que permite digitalizar el proceso de referidos, permitiendo el tracking de candidatos y con un sistema de gamification.")))), __jsx("div", {
         className: "tab-pane",
-        id: "customize1",
+        id: "movilidad",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137,
+          lineNumber: 135,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -1623,33 +1439,33 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138,
+          lineNumber: 136,
           columnNumber: 41
         }
       }, __jsx("div", {
-        className: "col-lg-6 col-md-6",
+        className: "col-lg-6  col-md-6",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139,
+          lineNumber: 137,
           columnNumber: 45
         }
       }, __jsx("img", {
         src: "./static/assets/images/product/07.png",
         className: "img-fluid iq-pr-50",
-        alt: "drive",
+        alt: "drive1",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140,
+          lineNumber: 138,
           columnNumber: 49
         }
       })), __jsx("div", {
-        className: "col-lg-6 col-md-6 text-left align-self-center",
+        className: "col-lg-6  col-md-6 text-left align-self-center",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143,
+          lineNumber: 141,
           columnNumber: 45
         }
       }, __jsx("h3", {
@@ -1657,33 +1473,24 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144,
+          lineNumber: 142,
           columnNumber: 49
         }
-      }, "We Are An Agency That Focuses On Digital Design Solutions"), __jsx("p", {
+      }, "Plataforma de Movilidad Interna"), __jsx("p", {
         className: "iq-mt-30 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146,
+          lineNumber: 143,
           columnNumber: 49
         }
-      }, "The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements."), __jsx("a", {
-        href: "#",
-        className: "button bt-black",
+      }, "Plataforma que permite a los colaboradores de la empresa postular a oportunidades de desarrollo de carrera dentro de la compa\xF1\xEDa.")))), __jsx("div", {
+        className: "tab-pane",
+        id: "workflow",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 148,
-          columnNumber: 49
-        }
-      }, "Let's Started")))), __jsx("div", {
-        className: "tab-pane",
-        id: "clean1",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 154,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -1691,7 +1498,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155,
+          lineNumber: 149,
           columnNumber: 41
         }
       }, __jsx("div", {
@@ -1699,17 +1506,17 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156,
+          lineNumber: 150,
           columnNumber: 45
         }
       }, __jsx("img", {
-        src: "./static/assets/images/product/05.png",
+        src: "./static/assets/images/product/06.png",
         className: "img-fluid iq-pr-50",
         alt: "drive1",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157,
+          lineNumber: 151,
           columnNumber: 49
         }
       })), __jsx("div", {
@@ -1717,49 +1524,32 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160,
+          lineNumber: 154,
           columnNumber: 45
         }
-      }, __jsx("h6", {
-        className: "iq-font-main iq-font-blue iq-mb-10",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 161,
-          columnNumber: 49
-        }
-      }, "We\u2019re Creative Agency"), __jsx("h3", {
+      }, __jsx("h3", {
         className: "iq-tw-7 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163,
+          lineNumber: 155,
           columnNumber: 49
         }
-      }, "We Are An Agency That Focuses On Digital Design Solutions"), __jsx("p", {
+      }, "Aprobaci\xF3n y Solicitud de Vacantes"), __jsx("p", {
         className: "iq-mt-30 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165,
+          lineNumber: 156,
           columnNumber: 49
         }
-      }, "The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements."), __jsx("a", {
-        href: "#",
-        className: "button bt-black",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 167,
-          columnNumber: 49
-        }
-      }, "Let's Started")))), __jsx("div", {
+      }, "Plataforma que permite automatizar y digitalizar el flujo de aprobaciones de vacantes, integrando a diferentes stakeholders de la organizaci\xF3n.")))), __jsx("div", {
         className: "tab-pane",
-        id: "revolution1",
+        id: "documentos",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173,
+          lineNumber: 161,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -1767,75 +1557,58 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 174,
+          lineNumber: 162,
           columnNumber: 41
         }
       }, __jsx("div", {
-        className: "col-lg-6 col-md-6",
+        className: "col-lg-6  col-md-6",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 175,
+          lineNumber: 163,
           columnNumber: 45
         }
       }, __jsx("img", {
-        src: "./static/assets/images/product/06.png",
+        src: "./static/assets/images/product/07.png",
         className: "img-fluid iq-pr-50",
-        alt: "drive",
+        alt: "drive1",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 176,
+          lineNumber: 164,
           columnNumber: 49
         }
       })), __jsx("div", {
-        className: "col-lg-6 col-md-6 text-left align-self-center",
+        className: "col-lg-6  col-md-6 text-left align-self-center",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 179,
+          lineNumber: 167,
           columnNumber: 45
         }
-      }, __jsx("h6", {
-        className: "iq-font-main iq-font-blue iq-mb-10",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 180,
-          columnNumber: 49
-        }
-      }, "We\u2019re Creative Agency"), __jsx("h3", {
+      }, __jsx("h3", {
         className: "iq-tw-7 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 182,
+          lineNumber: 168,
           columnNumber: 49
         }
-      }, "We Are An Agency That Focuses On Digital Design Solutions"), __jsx("p", {
+      }, "Gesti\xF3n Documental y Pre-Onboarding"), __jsx("p", {
         className: "iq-mt-30 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 184,
+          lineNumber: 169,
           columnNumber: 49
         }
-      }, "The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements."), __jsx("a", {
-        href: "#",
-        className: "button bt-black",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 186,
-          columnNumber: 49
-        }
-      }, "Let's Started")))), __jsx("div", {
+      }, "Plataforma que permite solicitar documentos de forma digital para candidatos contratados y entregar informaci\xF3n \xFAtil previo al primer d\xEDa de trabajo.")))), __jsx("div", {
         className: "tab-pane",
-        id: "responsive1",
+        id: "swap",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 192,
+          lineNumber: 174,
           columnNumber: 37
         }
       }, __jsx("div", {
@@ -1843,7 +1616,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 193,
+          lineNumber: 175,
           columnNumber: 41
         }
       }, __jsx("div", {
@@ -1851,17 +1624,17 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 194,
+          lineNumber: 176,
           columnNumber: 45
         }
       }, __jsx("img", {
-        src: "./static/assets/images/product/07.png",
+        src: "./static/assets/images/product/06.png",
         className: "img-fluid iq-pr-50",
-        alt: "drive",
+        alt: "drive1",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 195,
+          lineNumber: 177,
           columnNumber: 49
         }
       })), __jsx("div", {
@@ -1869,43 +1642,26 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 198,
+          lineNumber: 180,
           columnNumber: 45
         }
-      }, __jsx("h6", {
-        className: "iq-font-main iq-font-blue iq-mb-10",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 199,
-          columnNumber: 49
-        }
-      }, "We\u2019re Creative Agency"), __jsx("h3", {
+      }, __jsx("h3", {
         className: "iq-tw-7 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 201,
+          lineNumber: 181,
           columnNumber: 49
         }
-      }, "We Are An Agency That Focuses On Digital Design Solutions"), __jsx("p", {
+      }, "Plataforma de Outplacemente e Intercambio Profesional"), __jsx("p", {
         className: "iq-mt-30 iq-font-white",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 203,
+          lineNumber: 182,
           columnNumber: 49
         }
-      }, "The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements."), __jsx("a", {
-        href: "#",
-        className: "button bt-black",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 205,
-          columnNumber: 49
-        }
-      }, "Let's Started"))))))))));
+      }, "Plataforma que permite ayudar a los colaboradores que dejan la compa\xF1\xEDa, que sean recomendables para ser contratados por otras empresas. Adem\xE1s, podr\xE1s intercambiar talento con otras organizaciones."))))))))));
     }
   }]);
 
@@ -2012,19 +1768,19 @@ var Index = /*#__PURE__*/function (_React$Component) {
           lineNumber: 18,
           columnNumber: 37
         }
-      }, "Sofbox Specialities"), __jsx("p", {
+      }, "\xBFPor qu\xE9 elegir HiperJob?"), __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19,
           columnNumber: 37
         }
-      }, "Sofbox is popular for the below specialities that can make your website look beautiful")))), __jsx("div", {
+      }, "Puedes implementar la soluci\xF3n que necesites, sin necesidad de adquirirlas todas! Ahorra en comparaci\xF3n con otras soluciones.")))), __jsx("div", {
         className: "row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 23,
           columnNumber: 25
         }
       }, __jsx("div", {
@@ -2032,7 +1788,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 24,
           columnNumber: 29
         }
       }, __jsx("img", {
@@ -2042,7 +1798,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 25,
           columnNumber: 33
         }
       })), __jsx("div", {
@@ -2050,7 +1806,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 27,
           columnNumber: 29
         }
       }, __jsx("div", {
@@ -2058,7 +1814,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29,
+          lineNumber: 28,
           columnNumber: 33
         }
       }, __jsx("i", {
@@ -2067,7 +1823,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 29,
           columnNumber: 37
         }
       }), __jsx("div", {
@@ -2075,7 +1831,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 30,
           columnNumber: 37
         }
       }, __jsx("h5", {
@@ -2083,15 +1839,15 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 31,
           columnNumber: 41
         }
-      }, "Design"), "Sofbox\u2019s beautiful and super clean looks will make your website look beautiful and elegant.")), __jsx("div", {
+      }, "Integraci\xF3n"), "Te damos la oportunidad de integrarte con diferentes plataformas de empleo, test en l\xEDnea y otras plataformas de gesti\xF3n. Tenemos una API libre.")), __jsx("div", {
         className: "media service-box",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 35,
           columnNumber: 33
         }
       }, __jsx("i", {
@@ -2100,7 +1856,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 36,
           columnNumber: 37
         }
       }), __jsx("div", {
@@ -2108,7 +1864,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 37,
           columnNumber: 37
         }
       }, __jsx("h5", {
@@ -2116,15 +1872,15 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 38,
           columnNumber: 41
         }
-      }, "Code"), "Source code is written clean which can be understood.")), __jsx("div", {
+      }, "Notificaciones Autom\xE1ticas"), "Mejora la comunicaci\xF3n con tus candidatos y stakeholders con notificaciones autom\xE1ticas en todos los procesos.")), __jsx("div", {
         className: "media service-box",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 42,
           columnNumber: 33
         }
       }, __jsx("i", {
@@ -2133,7 +1889,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 43,
           columnNumber: 37
         }
       }), __jsx("div", {
@@ -2141,7 +1897,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 44,
           columnNumber: 37
         }
       }, __jsx("h5", {
@@ -2149,10 +1905,10 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 45,
           columnNumber: 41
         }
-      }, "Functionality"), "Allows easily to customize as per your business needs.")))))));
+      }, "Transformaci\xF3n Digital"), "Aporta al proceso de transformaci\xF3n digital en recursos humanos y genera insights de people analytics.")))))));
     }
   }]);
 
@@ -31997,18 +31753,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_style_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../static/style.css */ "./static/style.css");
 /* harmony import */ var _static_style_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_static_style_css__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _components_landing_page2_home__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/landing-page2/home */ "./components/landing-page2/home/index.js");
-/* harmony import */ var _components_landing_page2_fancyCard__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/landing-page2/fancyCard */ "./components/landing-page2/fancyCard/index.js");
-/* harmony import */ var _components_landing_page2_about__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/landing-page2/about */ "./components/landing-page2/about/index.js");
-/* harmony import */ var _components_landing_page2_services__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/landing-page2/services */ "./components/landing-page2/services/index.js");
-/* harmony import */ var _components_landing_page2_screenShot__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/landing-page2/screenShot */ "./components/landing-page2/screenShot/index.js");
-/* harmony import */ var _components_landing_page2_aboutApp__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/landing-page2/aboutApp */ "./components/landing-page2/aboutApp/index.js");
-/* harmony import */ var _components_landing_page2_clients__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/landing-page2/clients */ "./components/landing-page2/clients/index.js");
-/* harmony import */ var _components_landing_page2_overview__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/landing-page2/overview */ "./components/landing-page2/overview/index.js");
-/* harmony import */ var _components_landing_page2_footer__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/landing-page2/footer */ "./components/landing-page2/footer/index.js");
-/* harmony import */ var _static_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../static/assets/images/logo.png */ "./static/assets/images/logo.png");
-/* harmony import */ var _static_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_static_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _components_sofbox__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/sofbox */ "./components/sofbox/index.js");
-/* harmony import */ var _config_plugins__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../config/plugins */ "./config/plugins.js");
+/* harmony import */ var _components_landing_page1_faq__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/landing-page1/faq */ "./components/landing-page1/faq/index.js");
+/* harmony import */ var _components_landing_page2_services__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/landing-page2/services */ "./components/landing-page2/services/index.js");
+/* harmony import */ var _components_landing_page2_screenShot__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/landing-page2/screenShot */ "./components/landing-page2/screenShot/index.js");
+/* harmony import */ var _components_landing_page2_clients__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/landing-page2/clients */ "./components/landing-page2/clients/index.js");
+/* harmony import */ var _components_landing_page2_overview__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/landing-page2/overview */ "./components/landing-page2/overview/index.js");
+/* harmony import */ var _components_landing_page2_footer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/landing-page2/footer */ "./components/landing-page2/footer/index.js");
+/* harmony import */ var _static_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../static/assets/images/logo.png */ "./static/assets/images/logo.png");
+/* harmony import */ var _static_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_static_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _components_sofbox__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/sofbox */ "./components/sofbox/index.js");
+/* harmony import */ var _config_plugins__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../config/plugins */ "./config/plugins.js");
 
 
 
@@ -32027,8 +31781,6 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !_b
 
  // Import asset...
 // Import for the custom plugins...
-
-
 
 
 
@@ -32060,11 +31812,11 @@ var Index = /*#__PURE__*/function (_React$Component) {
         href: '#iq-home',
         title: 'Inicio'
       }, {
-        href: '#how-it-works',
-        title: 'Acerca de'
+        href: '#soluciones',
+        title: 'Soluciones'
       }, {
-        href: '#software-features',
-        title: 'Servicios'
+        href: '#porque-elegir-hiperjob',
+        title: '¿Por qué elegir HiperJob?'
       }, {
         href: '#great-screenshots',
         title: 'Screenshots'
@@ -32077,7 +31829,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
     key: "componentDidMount",
     value: function componentDidMount(props) {
       setTimeout(function () {
-        Object(_config_plugins__WEBPACK_IMPORTED_MODULE_20__["index"])();
+        Object(_config_plugins__WEBPACK_IMPORTED_MODULE_18__["index"])();
       }, 500);
     }
   }, {
@@ -32088,41 +31840,41 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58,
+          lineNumber: 56,
           columnNumber: 17
         }
       }, __jsx("title", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59,
+          lineNumber: 57,
           columnNumber: 21
         }
-      }, "Sofbox - Responsive Software Landing Page"), __jsx("meta", {
+      }, "HiperJob - Plataforma de Gesti\xF3n de Candidatos"), __jsx("meta", {
         name: "keywords",
-        content: "HTML5 Template",
+        content: "HiperJob, recursos humanos, postulantes, aplciantes, ATS, emplos, gesti\xF3n aplciantes, vacantes",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 58,
           columnNumber: 21
         }
       }), __jsx("meta", {
         name: "description",
-        content: "Sofbox - Responsive Software Landing Page",
+        content: "HiperJob - Plataforma de Gesti\xF3n de Candidatos",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 59,
           columnNumber: 21
         }
       }), __jsx("meta", {
         name: "author",
-        content: "http://iqonic.design/",
+        content: "https://hiperjobs.com/",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 60,
           columnNumber: 21
         }
       }), __jsx("link", {
@@ -32131,41 +31883,41 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 62,
           columnNumber: 21
         }
-      })), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_19__["Loader"], {
+      })), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_17__["Loader"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 67,
           columnNumber: 17
         }
-      }), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_19__["HeaderStyle1"], {
+      }), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_17__["HeaderStyle1"], {
         className: "",
         navItems: menu,
-        logoImg: _static_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_18___default.a,
+        logoImg: _static_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_16___default.a,
         buttonSection: __jsx("a", {
           className: "button bt-black pull-right",
           href: "#",
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 76,
+            lineNumber: 74,
             columnNumber: 37
           }
         }, "Contacto"),
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 70,
           columnNumber: 17
         }
       }), __jsx(_components_landing_page2_home__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81,
+          lineNumber: 79,
           columnNumber: 17
         }
       }), __jsx("div", {
@@ -32173,70 +31925,56 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 82,
           columnNumber: 17
         }
-      }, __jsx(_components_landing_page2_fancyCard__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86,
-          columnNumber: 21
-        }
-      }), __jsx(_components_landing_page2_about__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89,
-          columnNumber: 21
-        }
-      }), __jsx(_components_landing_page2_services__WEBPACK_IMPORTED_MODULE_12__["default"], {
+      }, __jsx(_components_landing_page2_screenShot__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 92,
           columnNumber: 21
         }
-      }), __jsx(_components_landing_page2_screenShot__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }), __jsx(_components_landing_page2_services__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 95,
           columnNumber: 21
         }
-      }), __jsx(_components_landing_page2_aboutApp__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      }), __jsx(_components_landing_page2_clients__WEBPACK_IMPORTED_MODULE_13__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 98,
           columnNumber: 21
         }
-      }), __jsx(_components_landing_page2_clients__WEBPACK_IMPORTED_MODULE_15__["default"], {
+      }), __jsx(_components_landing_page1_faq__WEBPACK_IMPORTED_MODULE_10__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 101,
           columnNumber: 21
         }
-      }), __jsx(_components_landing_page2_overview__WEBPACK_IMPORTED_MODULE_16__["default"], {
+      }), __jsx(_components_landing_page2_overview__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 104,
           columnNumber: 21
         }
-      })), __jsx(_components_landing_page2_footer__WEBPACK_IMPORTED_MODULE_17__["default"], {
+      })), __jsx(_components_landing_page2_footer__WEBPACK_IMPORTED_MODULE_15__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108,
+          lineNumber: 109,
           columnNumber: 17
         }
-      }), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_19__["ScrollTop"], {
+      }), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_17__["ScrollTop"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111,
+          lineNumber: 112,
           columnNumber: 17
         }
       }));
@@ -32247,6 +31985,17 @@ var Index = /*#__PURE__*/function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./static/assets/images/blog/01.jpg":
+/*!******************************************!*\
+  !*** ./static/assets/images/blog/01.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAHgAA/+EDL2h0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8APD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwNjcgNzkuMTU3NzQ3LCAyMDE1LzAzLzMwLTIzOjQwOjQyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6REMwMTVCNjE3QjY5MTFFOEEwNzJGMTM2OENGREQzNTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6REMwMTVCNjI3QjY5MTFFOEEwNzJGMTM2OENGREQzNTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEQzAxNUI1RjdCNjkxMUU4QTA3MkYxMzY4Q0ZERDM1MyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEQzAxNUI2MDdCNjkxMUU4QTA3MkYxMzY4Q0ZERDM1MyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pv/uAA5BZG9iZQBkwAAAAAH/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoXHh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoaJjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/AABEIANABcgMBIgACEQEDEQH/xABtAAEBAQEBAQEAAAAAAAAAAAAABAMCAQUGAQEAAAAAAAAAAAAAAAAAAAAAEAEAAgEDAQYFAwMFAAAAAAAAAQIDESEEMUFRYXESIpGxMhMFocEU0UJS8IHhI1MRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AP0wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMeVktjwzNfqnaPAHV8+HHOl7xE93a9plx5PotFvBNxeJS1IyZY9U23iNXHKwVwenLh1rvpoC9nOfDE6TesTHXd7hv9zFW/fG/mwtwMdrTabW1mdeztBt/Iwf+lfifyMH/pX4p54GGsTab2iI3mdk/HwRmze3WMdZ1mZ6g+o4vlxY/rtEeHaZsn2sVr93TzR8bjRnic2aZtrO0d4LKZ8WSdKXiZ7u12i5PErjp93DrWa7zGv6wo42X7uGLT9UbW84BqAAAAAA5vlx4/rtFfN5lyfbx2v/AIxt5ouNx/5E2y5pmY1085BXXk4LTpF41+HzapcnBw2rP249NuzeZj9XnAy2tFsVt/TvHl3ArZ25OCs6WvGvx+THnZppSKVnSb9Z8DFwcUUj7keq09d5jT4Aopel41paLR4Onz8tJ4eat8cz6J7PnC+LRNfVHSY1B5fJSka3tFY8XFeTgtOkXjX4fNHhpPLz2vkn2xvp8oUZeFhtSYpHpt2TuCkScDLa1bY7Tr6enkrAAAAAAAAAAAAAAAAAAAABxly1xU9dungizZ55Vq4qe2uuutp0XzWLbTET5sOTx8d8drRWIvWNYmNugNsdIx0rSOlY0dJuDltfFNbTrNJ0ifBTM6RrPSAR8/LO2CvW29v2hRgxRhxxTt62nxR8WJz8q2W3SN/6PoAl/ITphiO+37S14sacfHHhr8d2X5CP+ms91v2lrxp1wY/KAd5Y1x3jvrPySfjp9uSO6Yn46q8k6Y7T3RPySfjY2yT36R8wWub0rkpNLbxLoB8/De3EzziyfRPb8pa83kemPtU+q31adz3n1xzii1trxPt8fBPwa0vm1vOtojWsSCvicf7NNbfXbr4eDcAeTETGkxrHdJWtaxpWIiO6NnrHkcmmCN97z0qD3kZ64ccz/dP0x4sPx+OYi2Wf7to/dniwZOVf7uafZ8/CPBfERERERpEdIBDyvdzMdez2x8ZXoOT7ebjmentn9V4JfyEa4YnutHylrxp149Ne7T4bMvyE/wDREd9o+UusVvt8OLdsV1gE/u4WaZ2tS3Zrvo7yfkKzWYx1n1TtrOmzzh4a5Ztmy+6ddI171V8GLJX02rHnEaTAMuFgnFSb2mJtfu30hSh4drY89sEzrG+nnC4AAAAAAAAAAAAAAAAAABhzMdsmH2fVWddI7YbgI+Lysf24x5J9Nq7RM9Jh7yeXj+3NMc+q1o01jpES1ycXBknW1dJ742e4+LgxzrWu/fO4OOFhnHi1tta066eDvlW9PHvPhp8dmrm+OmSvpvGtZ7AT/j66Ypt22n5KnNMdMdfTSNKx2OgZ8jH93DakdesecJuHyK0r9nLPpmszpM7f7LWWTjYcs62rv3xtIMeXysf25x45i1rbbbxENeJinFhiJ2tbeTHxcGOfVWu8dJndsA8mYrE2mdIjeZeub465K+m8a1ns1mPkCD3czkd2Ov6R/wAu+XgnFMZsW0Rprp2d0q8eLHijTHGkTvLqYi0TWY1idpgHGDNGbHFo69LR3S0Z48GLFMzjjTXrvP7tAcZckYsdrz2dni+bivitknJyJme3TTq+nkx0yV9N41r3Mv4XG/w/Wf6g5/ncfvn4NMXJxZrTWmusRrvDn+Fxv8P1n+rvHx8OK3qpXSZjTrM/MGHPxTNa5a9adfJpi5eK9Im1orbtiZ0bsLcLj2nX06eU6An5OT+TlrixbxE9f9dyy2OJwzijaPT6YMeHFij2V016z2uwQcTNGC1sOX2766+Kq/KwUrr64t3RE6y6yYMWX666z39rOvC48Tr6dfOQYcOlsma3ItGkTrp5yueRERGkRpEdIegAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z"
 
 /***/ }),
 

@@ -42,37 +42,44 @@ class Index extends React.Component {
         this.state = {
             tabs: [
                 {
-                    id: 'retina1-tab',
-                    href: 'retina1',
-                    title: 'Retina Ready',
+                    id: 'career-page-tab',
+                    href: 'career-page',
+                    title: 'Career Page',
                     active: true,
                     icon: 'ion-ios-color-wand-outline'
                 },
                 {
-                    id: 'designs1-tab',
-                    href: 'designs1',
-                    title: 'Latest Designs',
+                    id: 'referreds-tab',
+                    href: 'referreds',
+                    title: 'Referidos',
                     active: false,
                     icon: 'ion-ios-heart-outline'
                 },
                 {
-                    id: 'customize1-tab',
-                    href: 'customize1',
-                    title: 'Easy to Customize',
+                    id: 'movilidad-tab',
+                    href: 'movilidad',
+                    title: 'Movilidad Interna',
                     active: false,
                     icon: 'ion-ios-settings'
                 },
                 {
-                    id: 'clean1-tab',
-                    href: 'clean1',
-                    title: 'Clean',
+                    id: 'workflow-tab',
+                    href: 'workflow',
+                    title: 'Workflow de Vacantes',
                     active: false,
                     icon: 'ion-ios-checkmark-outline'
                 },
                 {
-                    id: 'revolution1-tab',
-                    href: 'revolution1',
-                    title: 'Revolution Slider',
+                    id: 'documentos-tab',
+                    href: 'documentos',
+                    title: 'Documentos y Pre-Onboarding',
+                    active: false,
+                    icon: 'ion-ios-albums-outline'
+                },
+                {
+                    id: 'swap-tab',
+                    href: 'swap',
+                    title: 'SWAP',
                     active: false,
                     icon: 'ion-ios-albums-outline'
                 }
@@ -89,9 +96,7 @@ class Index extends React.Component {
                         <div className="row">
                             <div className="col-sm-12">
                                 <div className="heading-title iq-font-white white">
-                                    <h3 className="title iq-tw-7 iq-font-white">Why Choose Sofbox ?</h3>
-                                    <p>Sofbox provides beautiful and elegant look for your website
-                                    </p>
+                                    <h3 className="title iq-tw-7 iq-font-white">Soluciones</h3>
                                 </div>
                             </div>
                         </div>
@@ -101,109 +106,80 @@ class Index extends React.Component {
 
                                 <div className="tab-content iq-mt-30">
 
-                                    <div className="tab-pane active" id="retina1">
+                                    <div className="tab-pane active" id="career-page">
                                         <div className="row flex-row-reverse">
                                             <div className="col-lg-6  col-md-6">
                                                 <img src="./static/assets/images/product/07.png" className="img-fluid iq-pr-50"
                                                      alt="drive1" />
                                             </div>
                                             <div className="col-lg-6  col-md-6 text-left align-self-center">
-                                                <h3 className="iq-tw-7 iq-font-white">We Are An Agency That Focuses On
-                                                    Digital Design Solutions</h3>
-                                                <p className="iq-mt-30 iq-font-white">The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements.
-                                                </p>
-                                                <a href="#" className="button bt-black">Let's Started</a>
+                                                <h3 className="iq-tw-7 iq-font-white">Career Page - Trabaja con Nosotros</h3>
+                                                <p className="iq-mt-30 iq-font-white">Plataforma que permite recepcionar postulantes externos, con un atractivo y moderno diseño que logra mejorar la experiencia de candidato y transmitirá la propuesta de valor de la compañía.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div className="tab-pane" id="designs1">
+                                    <div className="tab-pane" id="referreds">
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
                                                 <img src="./static/assets/images/product/06.png" className="img-fluid iq-pr-50"
                                                      alt="drive1" />
                                             </div>
                                             <div className="col-lg-6 col-md-6 text-left align-self-center">
-                                                <h3 className="iq-tw-7 iq-font-white">We Are An Agency That Focuses On
-                                                    Digital Design Solutions</h3>
-                                                <p className="iq-mt-30 iq-font-white">The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements.
-                                                </p>
-                                                <a href="#" className="button bt-black">Let's
-                                                    Started</a>
+                                                <h3 className="iq-tw-7 iq-font-white">Plataforma de Referidos</h3>
+                                                <p className="iq-mt-30 iq-font-white">Plataforma que permite digitalizar el proceso de referidos, permitiendo el tracking de candidatos y con un sistema de gamification.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div className="tab-pane" id="customize1">
+                                    <div className="tab-pane" id="movilidad">
                                         <div className="row flex-row-reverse">
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-6  col-md-6">
                                                 <img src="./static/assets/images/product/07.png" className="img-fluid iq-pr-50"
-                                                     alt="drive" />
+                                                     alt="drive1" />
                                             </div>
-                                            <div className="col-lg-6 col-md-6 text-left align-self-center">
-                                                <h3 className="iq-tw-7 iq-font-white">We Are An Agency That Focuses On
-                                                    Digital Design Solutions</h3>
-                                                <p className="iq-mt-30 iq-font-white">The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements.
-                                                </p>
-                                                <a href="#" className="button bt-black">Let's
-                                                    Started</a>
+                                            <div className="col-lg-6  col-md-6 text-left align-self-center">
+                                                <h3 className="iq-tw-7 iq-font-white">Plataforma de Movilidad Interna</h3>
+                                                <p className="iq-mt-30 iq-font-white">Plataforma que permite a los colaboradores de la empresa postular a oportunidades de desarrollo de carrera dentro de la compañía.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div className="tab-pane" id="clean1">
+                                    <div className="tab-pane" id="workflow">
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
-                                                <img src="./static/assets/images/product/05.png" className="img-fluid iq-pr-50"
+                                                <img src="./static/assets/images/product/06.png" className="img-fluid iq-pr-50"
                                                      alt="drive1" />
                                             </div>
                                             <div className="col-lg-6 col-md-6 text-left align-self-center">
-                                                <h6 className="iq-font-main iq-font-blue iq-mb-10">We’re Creative
-                                                    Agency</h6>
-                                                <h3 className="iq-tw-7 iq-font-white">We Are An Agency That Focuses On
-                                                    Digital Design Solutions</h3>
-                                                <p className="iq-mt-30 iq-font-white">The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements.
-                                                </p>
-                                                <a href="#" className="button bt-black">Let's
-                                                    Started</a>
+                                                <h3 className="iq-tw-7 iq-font-white">Aprobación y Solicitud de Vacantes</h3>
+                                                <p className="iq-mt-30 iq-font-white">Plataforma que permite automatizar y digitalizar el flujo de aprobaciones de vacantes, integrando a diferentes stakeholders de la organización.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div className="tab-pane" id="revolution1">
+                                    <div className="tab-pane" id="documentos">
                                         <div className="row flex-row-reverse">
-                                            <div className="col-lg-6 col-md-6">
-                                                <img src="./static/assets/images/product/06.png" className="img-fluid iq-pr-50"
-                                                     alt="drive" />
+                                            <div className="col-lg-6  col-md-6">
+                                                <img src="./static/assets/images/product/07.png" className="img-fluid iq-pr-50"
+                                                     alt="drive1" />
                                             </div>
-                                            <div className="col-lg-6 col-md-6 text-left align-self-center">
-                                                <h6 className="iq-font-main iq-font-blue iq-mb-10">We’re Creative
-                                                    Agency</h6>
-                                                <h3 className="iq-tw-7 iq-font-white">We Are An Agency That Focuses On
-                                                    Digital Design Solutions</h3>
-                                                <p className="iq-mt-30 iq-font-white">The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements.
-                                                </p>
-                                                <a href="#" className="button bt-black">Let's
-                                                    Started</a>
+                                            <div className="col-lg-6  col-md-6 text-left align-self-center">
+                                                <h3 className="iq-tw-7 iq-font-white">Gestión Documental y Pre-Onboarding</h3>
+                                                <p className="iq-mt-30 iq-font-white">Plataforma que permite solicitar documentos de forma digital para candidatos contratados y entregar información útil previo al primer día de trabajo.</p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div className="tab-pane" id="responsive1">
+                                    <div className="tab-pane" id="swap">
                                         <div className="row">
                                             <div className="col-lg-6 col-md-6">
-                                                <img src="./static/assets/images/product/07.png" className="img-fluid iq-pr-50"
-                                                     alt="drive" />
+                                                <img src="./static/assets/images/product/06.png" className="img-fluid iq-pr-50"
+                                                     alt="drive1" />
                                             </div>
                                             <div className="col-lg-6 col-md-6 text-left align-self-center">
-                                                <h6 className="iq-font-main iq-font-blue iq-mb-10">We’re Creative
-                                                    Agency</h6>
-                                                <h3 className="iq-tw-7 iq-font-white">We Are An Agency That Focuses On
-                                                    Digital Design Solutions</h3>
-                                                <p className="iq-mt-30 iq-font-white">The template can be fully customizable with ease. Clean code which can be understood. Simply choose the layout that suits your needs, customize the sections, headers, sliders, colors, choose from pre-made useful elements.
-                                                </p>
-                                                <a href="#" className="button bt-black">Let's
-                                                    Started</a>
+                                                <h3 className="iq-tw-7 iq-font-white">Plataforma de Outplacemente e Intercambio Profesional</h3>
+                                                <p className="iq-mt-30 iq-font-white">Plataforma que permite ayudar a los colaboradores que dejan la compañía, que sean recomendables para ser contratados por otras empresas. Además, podrás intercambiar talento con otras organizaciones.</p>
                                             </div>
                                         </div>
                                     </div>

@@ -16,16 +16,13 @@ class Index extends React.Component {
                         <div className="banner-text">
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <h1 className="text-uppercase iq-font-white iq-tw-3">We are building <b
-                                        className="iq-tw-7">software</b> to help</h1>
-                                    <p className="iq-font-white iq-pt-15 iq-mb-40">We are a company boutique for digital transformation and software development that offers state-of - the-art engineering solutions, helping businesses and business customers untangle complicated problems.
-
-                                    </p>
-                                    
+                                    <h2 className="text-uppercase iq-font-white iq-tw-3">La Mejor Plataforma para la Estrategia Digital
+                                    de <b
+                                        className="iq-tw-7">Recursos Humanos</b></h2>
+                                    <p className="iq-font-white iq-pt-15 iq-mb-40">HiperJob te permitirá gestionar tus diferentes candidatos, optimizar procesos y mejorar los indicadores del área de atracción de talento.</p>
                                 </div>
                                 <div className="col-lg-6">
-                                    <img className="banner-img img-fluid watch-img wow slideInDown"
-                                         src="./static/assets/images/banner/19.png" alt="" />
+                                    
                                     <img className="banner-img wow bounceInDown" data-wow-duration="2s"
                                          src="./static/assets/images/banner/17.png" alt="" />
                                     <img className="banner-phone img-fluid center-block wow fadeInUp"

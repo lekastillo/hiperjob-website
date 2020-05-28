@@ -16,8 +16,8 @@ class Index extends React.Component {
                         <div className="row">
                             <div className="col-sm-12">
                                 <div className="heading-title">
-                                    <h3 className="title iq-tw-7">Frequently Asked Questions</h3>
-                                    <p>Here you can find solution to your questions or queries for template.</p>
+                                    <h3 className="title iq-tw-7">Preguntas Frecuentes</h3>
+                                    <p>Puedes implementar la solución que necesites, sin necesidad de adquirirlas todas! Ahorra en comparación con otras soluciones.</p>
                                 </div>
                             </div>
                         </div>
@@ -29,38 +29,33 @@ class Index extends React.Component {
                             <div className="col-md-12 col-lg-6">
                                 <div className="iq-accordion">
                                     <div className="iq-accordion accordion-active">
-                                        <a href="#" className="accordion-title iq-tw-7 iq-font-grey">Can sofbox be used for any business ?</a>
+                                        <a href="#" className="accordion-title iq-tw-7 iq-font-grey">¿Es muy costoso HiperJob?</a>
                                         <div className="accordion-details">
                                             <div className="row">
                                                 <div className="col-sm-3">
                                                     <img alt="#" className="img-fluid" src={ require('../../../static/assets/images/blog/01.jpg') } />
                                                 </div>
-                                                <div className="col-sm-9"> Yes. You can use this template for any business and can be customized as per your needs.
+                                                <div className="col-sm-9"> Desde 100 USD mensuales puedes acceder a nuestras soluciones.
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="iq-accordion">
-                                        <a href="#" className="accordion-title iq-tw-7 iq-font-grey">Is sofbox template responsive ?</a>
-                                        <div className="accordion-details">Yes. Every page is fully responsive and retina ready, which makes your creation look good on any device.
+                                        <a href="#" className="accordion-title iq-tw-7 iq-font-grey">Ya tengo un ATS, ¿me sirve?</a>
+                                        <div className="accordion-details">Si tienes Success Factors, Taleo, Workday o similar podemos ser el gran complemento para mejorar tu solución.
 
                                         </div>
                                     </div>
                                     <div className="iq-accordion">
-                                        <a href="#" className="accordion-title iq-tw-7 iq-font-grey">Can we change the color scheme ?</a>
+                                        <a href="#" className="accordion-title iq-tw-7 iq-font-grey">¿Puedo configurar según necesidades de mi empresa?</a>
                                         <div className="accordion-details">
                                             <div className="row">
-                                                <div className="col-sm-9"> Yes. You can change the color scheme of the website. There is customizer available from which you can change the websites color.
+                                                <div className="col-sm-9"> Puedes solicitar modificaciones para ajustarlo a tus necesidades, con pequeños costos extras.
                                                 </div>
                                                 <div className="col-sm-3">
                                                     <img alt="#" className="img-fluid" src={"./static/assets/images/blog/01.jpg"} />
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div className="iq-accordion">
-                                        <a href="#" className="accordion-title iq-tw-7 iq-font-grey">Are the sections customizable ?</a>
-                                        <div className="accordion-details">Yes. You can choose the layout and change the sections as per your needs. You can also choose pre-made useful elements.
                                         </div>
                                     </div>
                                 </div>
