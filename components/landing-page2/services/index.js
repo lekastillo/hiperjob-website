@@ -22,7 +22,7 @@ class Index extends React.Component {
                         </div>
                         <div className="row">
                             <div className="col-lg-7 col-md-12">
-                                <img src="./static/assets/images/drive/iPad-Mockup.png" className="img-fluid" alt="#" />
+                                <img src="./static/assets/images/choose.jpg" className="img-fluid" alt="#" />
                             </div>
                             <div className="col-lg-5 col-md-12 left-img">
                                 <div className="media service-box">

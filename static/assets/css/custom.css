@@ -13,3 +13,72 @@ ul.footer-bottom-social li{
   display:inline;
   padding: 5px 10px;
 }
+
+div.client-images{
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.client-images div.client-logo{
+  width: 15%;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+div.client-images div.client-logo img{
+  max-width: 150px;
+  max-height: 150px;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  div.client-images div.client-logo{
+    width: 90%;
+  }
+  div.client-images div.client-logo img{
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+  div.client-images div.client-logo{
+    width: 45%;
+  }
+  div.client-images div.client-logo img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  div.client-images div.client-logo{
+    width: 30%;
+  }
+  div.client-images div.client-logo img{
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  div.client-images div.client-logo{
+    width: 15%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  div.client-images div.client-logo img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+}  

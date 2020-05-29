@@ -3525,7 +3525,7 @@ blockquote {
 
 .cube .sides * {
   box-sizing: border-box;
-  background-color: rgba(74, 196, 243, 0.8);
+  background-color: rgba(255, 99, 43, 0.8);
   border: 5px solid white;
 }
 
@@ -5032,12 +5032,21 @@ Margin Right
                             Font Size
 -----------------------------------------------------------------------*/
 
-/*.iq-font-15 {
-  font-size: 15px;
-}*/
+.iq-font-10 {
+  font-size: 10px;
+}
+.iq-font-12 {
+  font-size: 12px;
+}
+.iq-font-14 {
+  font-size: 14px;
+}
+.iq-font-16 {
+  font-size: 16px;
+}
 
-.iq-font-20 {
-  font-size: 20px;
+.iq-font-18 {
+  font-size: 18px;
 }
 
 .iq-font-30 {
@@ -14143,7 +14152,7 @@ blockquote {
 
 .cube .sides * {
   box-sizing: border-box;
-  background-color: rgba(74, 196, 243, 0.8);
+  background-color: rgba(255, 99, 43, 0.8);
   border: 5px solid white;
 }
 
@@ -15650,12 +15659,21 @@ Margin Right
                             Font Size
 -----------------------------------------------------------------------*/
 
-/*.iq-font-15 {
-  font-size: 15px;
-}*/
+.iq-font-10 {
+  font-size: 10px;
+}
+.iq-font-12 {
+  font-size: 12px;
+}
+.iq-font-14 {
+  font-size: 14px;
+}
+.iq-font-16 {
+  font-size: 16px;
+}
 
-.iq-font-20 {
-  font-size: 20px;
+.iq-font-18 {
+  font-size: 18px;
 }
 
 .iq-font-30 {
@@ -24346,6 +24364,76 @@ ul.footer-bottom-social li{
   display:inline;
   padding: 5px 10px;
 }
+
+div.client-images{
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.client-images div.client-logo{
+  width: 15%;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+div.client-images div.client-logo img{
+  max-width: 150px;
+  max-height: 150px;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  div.client-images div.client-logo{
+    width: 90%;
+  }
+  div.client-images div.client-logo img{
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+  div.client-images div.client-logo{
+    width: 45%;
+  }
+  div.client-images div.client-logo img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+  div.client-images div.client-logo{
+    width: 30%;
+  }
+  div.client-images div.client-logo img{
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  div.client-images div.client-logo{
+    width: 15%;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  div.client-images div.client-logo img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+}  
+
 /*
 
 

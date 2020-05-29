@@ -16,70 +16,43 @@ class Index extends React.Component {
                     ]
                 }
             ],
-            footerHome: [
+            footerHome1: [
                 {
                     section: [
-                        { href: '#home', title: 'Inicio' },
-                        { href: '#soluciones', title: 'Soluciones' },
-                        { href: '#porque-elegir-hiperjob', title: '¿Por qué elegir HiperJob?' },
-                        { href: '#contacto', title: 'Contacto' }
+                        { href: '#!', title: 'Chile' },
+                        { href: '#!', title: 'Colombia' },
+                        { href: '#!', title: 'Argentina' },
+                        { href: '#!', title: 'Perú' },
+                        { href: '#!', title: 'México' }
                     ]
                 }
             ],
-            footerCommunity: [
+            footerHome2: [
                 {
                     section: [
-                        {
-                            href: '#',
-                            title: 'Knowledge'
-                        },
-                        {
-                            href: '#',
-                            title: 'Developers'
-                        },
-                        {
-                            href: '#',
-                            title: 'FAQ'
-                        },
-                        {
-                            href: '#',
-                            title: 'Forum'
-                        }
+                        { href: '#!', title: 'El Salvador' },
+                        { href: '#!', title: 'Guatemala' },
+                        { href: '#!', title: 'costa Rica' },
+                        { href: '#!', title: 'Panamá' }
                     ]
                 }
             ],
-            footerCompany: [
+            footerHome3: [
                 {
                     section: [
-                        {
-                            href: '#',
-                            title: 'About'
-                        },
-                        {
-                            href: '#',
-                            title: 'Blog'
-                        },
-                        {
-                            href: '#',
-                            title: 'Press'
-                        },
-                        {
-                            href: '#',
-                            title: 'Careers'
-                        }
+                        { href: '#!', title: 'Ecuador' },
+                        { href: '#!', title: 'Honduras' },
+                        { href: '#!', title: 'Nicaragua' },
+                        { href: '#!', title: 'Rep. Dominicana' }
                     ]
                 }
             ],
+
             footerText: [
                 {
                     icon: true,
                     iconClass: 'ion-ios-location-outline',
-                    text: 'Av. Apoquindo 5950, Piso 21, Las Condes, Chile'
-                },
-                {
-                    icon: true,
-                    iconClass: 'ion-ios-telephone-outline',
-                    text: '+ 569 9126 3360'
+                    text: 'Av. Paseo de la Reforma 26, Piso 24, Ciudad de México.'
                 },
                 {
                     icon: true,
@@ -91,19 +64,25 @@ class Index extends React.Component {
     }
 
     render() {
-        const { footerPlatform, footerHome, footerCommunity, footerCompany, footerText } = this.state;
+        const { footerHome1, footerHome2, footerHome3, footerText } = this.state;
         return (
             <>
                 <FooterMain className={"iq-footerr iq-pt-40 iq-pb-20"}>
                     <div className="row">
-                        <div className="col-lg-4 col-md-4 col-sm-6 iq-mtb-20">
+                        <div className="col-lg-3 col-md-3 col-sm-6 iq-mtb-20">
                             <FooterAddress  addressContent={footerText} addressTitle={""} />
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-6 iq-mtb-20">
-                            <FooterLinks title={""} content={footerHome}  />
+                        <div className="col-lg-2 col-md-3 col-sm-6 iq-mtb-20">
+                            <FooterLinks title={""} content={footerHome1}  />
                         </div>
-                        <div className="col-lg-4 col-md-4 col-sm-12 iq-mtb-20">
-                            <span className='widget-title font-bold color-efy font-18'>Síguenos en</span>
+                        <div className="col-lg-2 col-md-3 col-sm-6 iq-mtb-20">
+                            <FooterLinks title={""} content={footerHome2}  />
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-sm-6 iq-mtb-20">
+                            <FooterLinks title={""} content={footerHome3}  />
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-6 iq-mtb-20">
+                            <span className='widget-title font-bold color-efy iq-font-12'>Síguenos en</span>
                             <br />
                             <ul className='footer-bottom-social'>
                                 <li>
@@ -156,7 +135,9 @@ class Index extends React.Component {
                                     </a>
                                 </li>
                             </ul>
+                        
                         </div>
+
                     </div>
                     <hr />
                     <div className="row iq-mt-20 align-items-center">
@@ -171,7 +152,7 @@ class Index extends React.Component {
                             </ul>
                         </div>
                         <div className="col-auto">
-                            <div className="iq-copyright iq-ml-10">
+                            <div className="iq-copyright iq-ml-10 iq-font-12">
                                 <a href="/">Hiperjob</a> Todos los derechos reservados.
                             </div>
                         </div>

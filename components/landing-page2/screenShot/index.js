@@ -81,7 +81,7 @@ class Index extends React.Component {
                     href: 'swap',
                     title: 'SWAP',
                     active: false,
-                    icon: 'ion-ios-albums-outline'
+                    icon: 'ion-ios-briefcase-outline'
                 }
             ]
         }
@@ -107,12 +107,8 @@ class Index extends React.Component {
                                 <div className="tab-content iq-mt-30">
 
                                     <div className="tab-pane active" id="career-page">
-                                        <div className="row flex-row-reverse">
-                                            <div className="col-lg-6  col-md-6">
-                                                <img src="./static/assets/images/product/07.png" className="img-fluid iq-pr-50"
-                                                     alt="drive1" />
-                                            </div>
-                                            <div className="col-lg-6  col-md-6 text-left align-self-center">
+                                        <div className="row">
+                                            <div className="col-lg-12  col-md-12 text-center align-self-center">
                                                 <h3 className="iq-tw-7 iq-font-white">Career Page - Trabaja con Nosotros</h3>
                                                 <p className="iq-mt-30 iq-font-white">Plataforma que permite recepcionar postulantes externos, con un atractivo y moderno diseño que logra mejorar la experiencia de candidato y transmitirá la propuesta de valor de la compañía.</p>
                                             </div>
@@ -121,11 +117,7 @@ class Index extends React.Component {
 
                                     <div className="tab-pane" id="referreds">
                                         <div className="row">
-                                            <div className="col-lg-6 col-md-6">
-                                                <img src="./static/assets/images/product/06.png" className="img-fluid iq-pr-50"
-                                                     alt="drive1" />
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 text-left align-self-center">
+                                            <div className="col-lg-12  col-md-12 text-center align-self-center">
                                                 <h3 className="iq-tw-7 iq-font-white">Plataforma de Referidos</h3>
                                                 <p className="iq-mt-30 iq-font-white">Plataforma que permite digitalizar el proceso de referidos, permitiendo el tracking de candidatos y con un sistema de gamification.</p>
                                             </div>
@@ -134,11 +126,7 @@ class Index extends React.Component {
 
                                     <div className="tab-pane" id="movilidad">
                                         <div className="row flex-row-reverse">
-                                            <div className="col-lg-6  col-md-6">
-                                                <img src="./static/assets/images/product/07.png" className="img-fluid iq-pr-50"
-                                                     alt="drive1" />
-                                            </div>
-                                            <div className="col-lg-6  col-md-6 text-left align-self-center">
+                                            <div className="col-lg-12  col-md-12 text-center align-self-center">
                                                 <h3 className="iq-tw-7 iq-font-white">Plataforma de Movilidad Interna</h3>
                                                 <p className="iq-mt-30 iq-font-white">Plataforma que permite a los colaboradores de la empresa postular a oportunidades de desarrollo de carrera dentro de la compañía.</p>
                                             </div>
@@ -147,11 +135,7 @@ class Index extends React.Component {
 
                                     <div className="tab-pane" id="workflow">
                                         <div className="row">
-                                            <div className="col-lg-6 col-md-6">
-                                                <img src="./static/assets/images/product/06.png" className="img-fluid iq-pr-50"
-                                                     alt="drive1" />
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 text-left align-self-center">
+                                            <div className="col-lg-12  col-md-12 text-center align-self-center">
                                                 <h3 className="iq-tw-7 iq-font-white">Aprobación y Solicitud de Vacantes</h3>
                                                 <p className="iq-mt-30 iq-font-white">Plataforma que permite automatizar y digitalizar el flujo de aprobaciones de vacantes, integrando a diferentes stakeholders de la organización.</p>
                                             </div>
@@ -159,12 +143,8 @@ class Index extends React.Component {
                                     </div>
 
                                     <div className="tab-pane" id="documentos">
-                                        <div className="row flex-row-reverse">
-                                            <div className="col-lg-6  col-md-6">
-                                                <img src="./static/assets/images/product/07.png" className="img-fluid iq-pr-50"
-                                                     alt="drive1" />
-                                            </div>
-                                            <div className="col-lg-6  col-md-6 text-left align-self-center">
+                                        <div className="row">
+                                            <div className="col-lg-12  col-md-12 text-center align-self-center">
                                                 <h3 className="iq-tw-7 iq-font-white">Gestión Documental y Pre-Onboarding</h3>
                                                 <p className="iq-mt-30 iq-font-white">Plataforma que permite solicitar documentos de forma digital para candidatos contratados y entregar información útil previo al primer día de trabajo.</p>
                                             </div>
@@ -173,11 +153,7 @@ class Index extends React.Component {
 
                                     <div className="tab-pane" id="swap">
                                         <div className="row">
-                                            <div className="col-lg-6 col-md-6">
-                                                <img src="./static/assets/images/product/06.png" className="img-fluid iq-pr-50"
-                                                     alt="drive1" />
-                                            </div>
-                                            <div className="col-lg-6 col-md-6 text-left align-self-center">
+                                            <div className="col-lg-12  col-md-12 text-center align-self-center">
                                                 <h3 className="iq-tw-7 iq-font-white">Plataforma de Outplacemente e Intercambio Profesional</h3>
                                                 <p className="iq-mt-30 iq-font-white">Plataforma que permite ayudar a los colaboradores que dejan la compañía, que sean recomendables para ser contratados por otras empresas. Además, podrás intercambiar talento con otras organizaciones.</p>
                                             </div>

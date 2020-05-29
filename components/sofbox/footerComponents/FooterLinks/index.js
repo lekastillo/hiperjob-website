@@ -13,7 +13,7 @@ const MainList = (props) => {
 const List = (props) => {
     const content = props.section;
     const list = content.map((list, index) => (
-        <li key={index}>
+        <li key={index} className='iq-font-12'>
             <a href={ list.href }>{ list.title }</a>
         </li>
     ));

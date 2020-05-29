@@ -7,14 +7,18 @@ class Index extends React.Component {
         super(props);
         this.state = {
             carousalImages : [
-                { src: require('../../../static/assets/images/clients/01.png') },
-                { src: require('../../../static/assets/images/clients/02.png') },
-                { src: require('../../../static/assets/images/clients/03.png') },
-                { src: require('../../../static/assets/images/clients/04.png') },
-                { src: require('../../../static/assets/images/clients/05.png') },
-                { src: require('../../../static/assets/images/clients/06.png') },
-                { src: require('../../../static/assets/images/clients/07.png') },
-                { src: require('../../../static/assets/images/clients/09.png') }
+                { src: require('../../../static/assets/images/clientes/CCU.png') },
+                { src: require('../../../static/assets/images/clientes/Consorcio.png') },
+                { src: require('../../../static/assets/images/clientes/Itau.png') },
+                { src: require('../../../static/assets/images/clientes/metl.png') },
+                { src: require('../../../static/assets/images/clientes/BAVARIA.png') },
+                { src: require('../../../static/assets/images/clientes/L_Oreal.png') },
+                { src: require('../../../static/assets/images/clientes/providaafp.png') },
+                { src: require('../../../static/assets/images/clientes/SKY.jpg') },
+                { src: require('../../../static/assets/images/clientes/Soprole.png') },
+                { src: require('../../../static/assets/images/clientes/telus.png') },
+                { src: require('../../../static/assets/images/clientes/VTR.png') },
+                { src: require('../../../static/assets/images/clientes/Walmart.jpg') }
             ]
         }
     }
@@ -25,10 +29,12 @@ class Index extends React.Component {
             <>
                 <div className="iq-our-clients white-bg iq-ptb-50">
                     <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12 col-md-12">
-                                <ClientCarousal images={carousalImages} />
+                        <div className="row client-images text-center">
+                        { carousalImages.map((image) => (
+                            <div className="client-logo">
+                                <img className="img-fluid center-block" src={image.src} alt="#" />
                             </div>
+                        ))}
                         </div>
                     </div>
                 </div>

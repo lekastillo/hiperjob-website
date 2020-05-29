@@ -4,9 +4,9 @@ const List = (props) => {
 
     const list = props.list;
     const listing = list.map((item, index) => (
-        <li key={index} >
+        <li key={index}>
             { item.icon && (<i className={ item.iconClass } />) }
-            <p>{ item.text }</p>
+            <p  className='iq-font-12'>{ item.text }</p>
         </li>
     ));
     return (

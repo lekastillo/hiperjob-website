@@ -25,8 +25,7 @@ class Index extends React.Component {
                                     
                                     <img className="banner-img wow bounceInDown" data-wow-duration="2s"
                                          src="./static/assets/images/banner/17.png" alt="" />
-                                    <img className="banner-phone img-fluid center-block wow fadeInUp"
-                                         src="./static/assets/images/product/mob.png" alt="" />
+                                    
                                 </div>
                             </div>
                         </div>
