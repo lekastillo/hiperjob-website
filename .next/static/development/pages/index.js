@@ -417,11 +417,43 @@ var Index = /*#__PURE__*/function (_React$Component) {
           columnNumber: 21
         }
       }, __jsx("div", {
-        className: "row client-images text-center",
+        className: "row",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32,
+          columnNumber: 25
+        }
+      }, __jsx("div", {
+        className: "col-sm-12",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 29
+        }
+      }, __jsx("div", {
+        className: "heading-title",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 33
+        }
+      }, __jsx("h3", {
+        className: "title iq-tw-7",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 37
+        }
+      }, "Clientes")))), __jsx("div", {
+        className: "row client-images text-center",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
           columnNumber: 25
         }
       }, carousalImages.map(function (image) {
@@ -430,7 +462,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 34,
+            lineNumber: 41,
             columnNumber: 29
           }
         }, __jsx("img", {
@@ -440,7 +472,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 35,
+            lineNumber: 42,
             columnNumber: 33
           }
         }));
@@ -706,7 +738,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
           columnNumber: 33
         }
       }, __jsx("a", {
-        href: "https://www.linkedin.com/company/firstjobme/",
+        href: "#!",
         target: "_blank",
         rel: "noopener noreferrer",
         __self: this,
@@ -731,7 +763,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
           columnNumber: 33
         }
       }, __jsx("a", {
-        href: "https://www.youtube.com/channel/UCsczfDcLzndhNcOpB1TJDsQ",
+        href: "#!",
         target: "_blank",
         rel: "noopener noreferrer",
         __self: this,
@@ -756,7 +788,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
           columnNumber: 33
         }
       }, __jsx("a", {
-        href: "https://www.facebook.com/firstjobCL",
+        href: "#!",
         target: "_blank",
         rel: "noopener noreferrer",
         __self: this,
@@ -781,7 +813,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
           columnNumber: 33
         }
       }, __jsx("a", {
-        href: "http://instagram.com/firstjobme",
+        href: "#!",
         target: "_blank",
         rel: "noopener noreferrer",
         __self: this,
@@ -795,24 +827,24 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124,
+          lineNumber: 123,
           columnNumber: 33
         }
       }))), __jsx("li", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127,
+          lineNumber: 126,
           columnNumber: 33
         }
       }, __jsx("a", {
-        href: "https://twitter.com/firstjoblatam",
+        href: "#!",
         target: "_blank",
         rel: "noopener noreferrer",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128,
+          lineNumber: 127,
           columnNumber: 37
         }
       }, __jsx("i", {
@@ -820,14 +852,14 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 132,
           columnNumber: 41
         }
       })))))), __jsx("hr", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142,
+          lineNumber: 140,
           columnNumber: 21
         }
       }), __jsx("div", {
@@ -835,7 +867,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143,
+          lineNumber: 141,
           columnNumber: 21
         }
       }, __jsx("div", {
@@ -843,7 +875,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144,
+          lineNumber: 142,
           columnNumber: 25
         }
       }, __jsx("ul", {
@@ -851,7 +883,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145,
+          lineNumber: 143,
           columnNumber: 29
         }
       }, __jsx("li", {
@@ -859,7 +891,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146,
+          lineNumber: 144,
           columnNumber: 33
         }
       }, __jsx("img", {
@@ -870,7 +902,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147,
+          lineNumber: 145,
           columnNumber: 37
         }
       })))), __jsx("div", {
@@ -878,7 +910,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154,
+          lineNumber: 152,
           columnNumber: 25
         }
       }, __jsx("div", {
@@ -886,7 +918,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155,
+          lineNumber: 153,
           columnNumber: 29
         }
       }, __jsx("a", {
@@ -894,7 +926,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156,
+          lineNumber: 154,
           columnNumber: 33
         }
       }, "Hiperjob"), " Todos los derechos reservados.")))));
@@ -31910,25 +31942,18 @@ var Index = /*#__PURE__*/function (_React$Component) {
           lineNumber: 100,
           columnNumber: 21
         }
-      }), __jsx(_components_landing_page2_overview__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103,
-          columnNumber: 21
-        }
       })), __jsx(_components_landing_page2_footer__WEBPACK_IMPORTED_MODULE_15__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108,
+          lineNumber: 109,
           columnNumber: 17
         }
       }), __jsx(_components_sofbox__WEBPACK_IMPORTED_MODULE_17__["ScrollTop"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111,
+          lineNumber: 112,
           columnNumber: 17
         }
       }));
