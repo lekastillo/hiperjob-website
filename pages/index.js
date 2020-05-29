@@ -99,8 +99,9 @@ class Index extends React.Component {
                     {/* Faq section */}
                     <Faq />
 
-                    {/* Overview section */}
-                    <Overview />
+                    {/* Overview
+                        <Overview />
+                     section */}
                     
                 </div>
 

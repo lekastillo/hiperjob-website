@@ -87,7 +87,7 @@ class Index extends React.Component {
                             <ul className='footer-bottom-social'>
                                 <li>
                                     <a
-                                        href='https://www.linkedin.com/company/firstjobme/'
+                                        href='#!'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                     >
@@ -97,7 +97,7 @@ class Index extends React.Component {
                                 <li>
                                     <a
 
-                                        href='https://www.youtube.com/channel/UCsczfDcLzndhNcOpB1TJDsQ'
+                                        href='#!'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                     >
@@ -107,7 +107,7 @@ class Index extends React.Component {
                                 <li>
                                     <a
 
-                                        href='https://www.facebook.com/firstjobCL'
+                                        href='#!'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                     >
@@ -116,18 +116,16 @@ class Index extends React.Component {
                                 </li>
                                 <li>
                                 <a
-
-                                href='http://instagram.com/firstjobme'
-                                target='_blank'
-                                rel='noopener noreferrer'
+                                    href='#!'
+                                    target='_blank'
+                                    rel='noopener noreferrer'
                                 >
                                 <i className='ion-social-instagram iq-font-30 iq-font-black'></i>
                                 </a>
                                 </li>
                                 <li>
                                     <a
-
-                                        href='https://twitter.com/firstjoblatam'
+                                        href='#!'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                     >

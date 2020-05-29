@@ -29,6 +29,13 @@ class Index extends React.Component {
             <>
                 <div className="iq-our-clients white-bg iq-ptb-50">
                     <div className="container">
+                        <div className="row">
+                            <div className="col-sm-12">
+                                <div className="heading-title">
+                                    <h3 className="title iq-tw-7">Clientes</h3>
+                                </div>
+                            </div>
+                        </div>
                         <div className="row client-images text-center">
                         { carousalImages.map((image) => (
                             <div className="client-logo">
